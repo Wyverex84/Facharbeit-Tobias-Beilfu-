@@ -59,6 +59,7 @@ public class Startscreen extends World
         super(500, 600, 1);
         start();
         Title();
+        Hintergrund();
     }
     public void act()
     {
@@ -80,6 +81,6 @@ public class Startscreen extends World
     }
     void Hintergrund(String filename, int width, int height, World world)
     {
-        Commen.Hintergrund("weltall.png",500,600,this);
+        Commen.Hintergrund("Facharbeit\images\weltall.png",500,600,this);
     }
 }
