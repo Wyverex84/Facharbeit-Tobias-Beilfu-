@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=Block
+comment1.params=width\ height\ angle
+comment1.target=Block(int,\ int,\ double)
+numComments=2

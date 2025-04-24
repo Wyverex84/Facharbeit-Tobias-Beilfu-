@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=img
+comment0.target=Label(greenfoot.GreenfootImage)
+comment0.text=\r\n\ Constructs\ a\ label\ with\ the\ specified\ background\ image.\ The\ image\ may\r\n\ be\ written\ upon\ by\ calling\ <code>setText()</code>.\r\n\r\n\ @param\ img\ The\ background\ image\ to\ display.\r\n
+comment1.params=text
+comment1.target=Label(java.lang.String)
+comment1.text=\r\n\ Constructs\ a\ label\ with\ the\ specified\ text\ displayed\ in\ the\ default\ text\r\n\ color\ and\ font\ on\ a\ transparent\ background\ without\ a\ border.\r\n\r\n\ @param\ text\ The\ text\ to\ display\ on\ the\ label\r\n
+comment2.params=text\ font
+comment2.target=Label(java.lang.String,\ java.awt.Font)
+comment2.text=\r\n\ Constructs\ a\ label\ with\ the\ specified\ text\ and\ font\ using\ the\ default\r\n\ text\ color\ on\ a\ transparent\ background\ without\ a\ border.\r\n\r\n\ @param\ text\ The\ text\ to\ display\ on\ the\ label\r\n\ @param\ font\ The\ font\ with\ which\ to\ write\ the\ text.\r\n
+comment3.params=text\ textColor
+comment3.target=Label(java.lang.String,\ java.awt.Color)
+comment3.text=\r\n\ Constructs\ a\ label\ with\ text\ of\ the\ specified\ color\ using\ the\ default\r\n\ font\ on\ a\ transparent\ background\ without\ a\ border.\r\n\r\n\ @param\ text\ The\ text\ to\ display\ on\ the\ label\r\n\ @param\ textColor\ The\ color\ to\ use\ for\ displaying\ text.\r\n
+comment4.params=text\ font\ textColor
+comment4.target=Label(java.lang.String,\ java.awt.Font,\ java.awt.Color)
+comment4.text=\r\n\ Constructs\ a\ label\ with\ text\ of\ the\ specified\ color\ and\ font\ on\ a\r\n\ transparent\ background\ without\ a\ border.\r\n\r\n\ @param\ text\ The\ text\ to\ display\ on\ the\ label\r\n\ @param\ font\ The\ font\ with\ which\ to\ display\ the\ text.\r\n\ @param\ textColor\ The\ color\ to\ use\ for\ displaying\ text.\r\n
+comment5.params=text\ font\ textColor\ bgColor
+comment5.target=Label(java.lang.String,\ java.awt.Font,\ java.awt.Color,\ java.awt.Color)
+comment5.text=\r\n\ Constructs\ a\ label\ with\ text\ of\ the\ specified\ color\ on\ a\ background\r\n\ of\ the\ specified\ color\ with\ a\ border.\r\n\r\n\ @param\ text\ The\ text\ to\ display\ on\ the\ label\r\n\ @param\ font\ The\ font\ with\ which\ to\ display\ the\ text.\r\n\ @param\ textColor\ The\ color\ to\ use\ for\ displaying\ text.\r\n\ @param\ bgColor\ The\ desired\ background\ color.\r\n
+comment6.params=g
+comment6.target=void\ paintComponent(java.awt.Graphics)
+comment6.text=\r\n\ Prepares\ the\ labels\ background\ image.\r\n\r\n\ @param\ g\ The\ <code>Graphics</code>\ context\ in\ which\ to\ paint.\r\n
+comment7.params=g
+comment7.target=void\ paintText(java.awt.Graphics)
+comment7.text=\r\n\ Paints\ the\ text\ onto\ the\ labels\ background\ image.\r\n\r\n\ @param\ g\ The\ <code>Graphics</code>\ context\ in\ which\ to\ paint.\r\n
+numComments=8

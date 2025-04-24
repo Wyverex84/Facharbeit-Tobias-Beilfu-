@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Startscreen
+comment0.text=\ \r\n\ <style>\r\n\ \ \ table,\ th,\ td\ {\r\n\ border\:\ 2px\ solid\ black;\r\n\ border-collapse\:\ collapse;\r\n\ text-align\:center;\r\n\ vertical-align\:\ text-top;\r\n}\r\n</style>\r\n\ @author\ (Tobias\ Beilfu\u00DF)\ <br>\r\n\ @version\ (0.1.4)\ <br>\r\n\ <b\ style\="font-size\:120%;">Dokumentation\:</b>\ <br>\r\n\ <table\ style\="width\:100%;">\r\n\ <tr>\r\n\ <th>Datum</th>\r\n\ <th>\u00C4nderung</th>\r\n\ </tr>\r\n\ \r\n\ <tr>\r\n\ <th><b\ style\="font-size\:80%;">18.04.2025\:</b></th>\r\n\ <td>welt\ unterklasse\ Startscreen\ erstellt</td>\r\n\ </tr>\r\n\ \r\n\ <tr>\r\n\ <th\ rowspan\="4"><b\ style\="font-size\:80%;">20.04.2025\:</b></th>\r\n\ <td>\ Welt\ gr\u00F6\u00DFe\ ge\u00E4ndert</td>\r\n\ </tr>\r\n\ \r\n\ <tr>\r\n\ <td>Startbutton\ erstellt</td>\r\n\ </tr>\r\n\ \r\n\ <tr>\r\n\ <td>\ Title\ erstellt</td>\r\n\ </tr>\r\n\ \r\n\ <tr>\r\n\ <td>Startbutton\ anklickbar\ gemacht</td>\r\n\ </tr>\r\n\ \r\n\ <tr>\r\n\ <th><b\ style\="font-size\:80%;">22.04.2025\:</b></th>\r\n\ <td>Hintergrund\ erstellt\ (noch\ kein\ hintergrundbild\ vorhanden)</td>\r\n\ </tr>\r\n\ </table>\r\n
+comment1.params=
+comment1.target=Startscreen()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Startscreen.\r\n\ \r\n
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=void\ start()
+comment4.params=
+comment4.target=void\ Title()
+comment5.params=filename\ width\ height\ world
+comment5.target=void\ Hintergrund(java.lang.String,\ int,\ int,\ greenfoot.World)
+numComments=6

@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=ArcBar
+comment1.params=text\ initVal\ maxVal
+comment1.target=ArcBar(java.lang.String,\ int,\ int)
+comment1.text=\r\n\ ArcBar\ Constructor\:\ saves\ the\ specified\ state\ values\ and\ creates\ this\ actors\ initial\ image\r\n\r\n\ @param\ text\ the\ caption\ for\ this\ arcbar\r\n\ @param\ initVal\ the\ initial\ value\ of\ this\ arcbar\r\n\ @param\ maxVal\ the\ maximum\ value\ allowed\ for\ this\ arcbar\r\n
+comment2.params=amount
+comment2.target=void\ add(int)
+comment2.text=\r\n\ Method\ add\:\ adjusts\ the\ value\ of\ this\ arcbar\ by\ the\ specified\ amount\r\n\r\n\ @param\ amount\ the\ adjustment\ amount\ for\ the\ value\ of\ this\ arcbar\r\n
+comment3.params=
+comment3.target=int\ getValue()
+comment3.text=\r\n\ Method\ getValue\:\ returns\ the\ current\ value\ of\ this\ arcbar\r\n\r\n\ @return\ the\ current\ value\ of\ this\ arcbar\r\n
+comment4.params=val
+comment4.target=void\ setValue(int)
+comment4.text=\r\n\ Method\ setValue\:\ sets\ the\ current\ value\ of\ this\ arcbar\ to\ the\ specified\ value\r\n\r\n\ @param\ val\ the\ value\ at\ which\ the\ value\ of\ this\ arcbar\ is\ to\ be\ set\r\n
+comment5.params=
+comment5.target=int\ getMaximumValue()
+comment5.text=\r\n\ Method\ getMaximumValue\:\ returns\ the\ maximum\ limit\ of\ this\ arcbar\r\n\r\n\ @return\ the\ maximum\ limit\ of\ this\ arcbar\r\n
+comment6.params=pct
+comment6.target=void\ setPercentSized(int)
+comment6.text=\r\n\ Method\ setPercentSized\:\ sets\ the\ visual\ size\ of\ this\ arcbar\ to\ between\ 50\ and\ 100\ percent\ of\ full-sized\r\n\r\n\ @param\ pct\ the\ scaling\ percentage\ of\ the\ size\ of\ the\ image\ for\ this\ arcbar\ (full-sized\ is\ 300x150)\r\n
+comment7.params=
+comment7.target=void\ updateImage()
+comment7.text=\r\n\ Method\ updateImage\:\ creates/updates\ the\ image\ of\ this\ arcbar\r\n
+numComments=8

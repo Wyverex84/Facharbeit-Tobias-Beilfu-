@@ -1,0 +1,21 @@
+//34567890123456789012345678901234567890123456789012345678
+
+import greenfoot.*;
+
+
+/*********************************************************
+The purpose of this interface is to make it possible for 
+an object that uses a Menu object to be able to register 
+for notification whenever the mouse is clicked on a menu
+item, moved from one menu item to another menu item, or
+moved from the menu to the world background.
+
+@author Dick Baldwin 
+@version 07/19/08
+@see Menu, Labels, Description
+*********************************************************/
+public interface MenuListener{
+  public void clickCallback(Menu source,
+                                     int menuItemClicked);
+  public void moveCallback(Menu source,int menuItemMoved);
+}//end interface MenuListener

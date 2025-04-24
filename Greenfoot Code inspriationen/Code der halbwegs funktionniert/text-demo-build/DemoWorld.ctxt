@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=DemoWorld
+comment0.text=\r\n\ A\ world\ containing\ an\ explained\ demo\ for\ how\ wo\ use\ the\ Image\ class\ that\r\n\ allowes\ for\ different\ fonts.\r\n\ \r\n\ <p>DemoWorld\ is\ extending\ CoreWorld,\ which\ is\ a\ more\ advanced\ world\ but\ shares\r\n\ all\ of\ its\ features.\ If\ is\ included\ in\ the\ package.\r\n
+comment1.params=
+comment1.target=DemoWorld()
+comment1.text=\r\n\ Constructor\ for\ DemoWorld.\r\n
+numComments=2

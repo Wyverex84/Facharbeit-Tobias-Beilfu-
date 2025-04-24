@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=GContainer
+comment0.text=This\ is\ part\ of\ PiRocks'\ greenfoot\ gui\ package.\r\n\ \r\n\ @author\ PiRocks\r\n\ @version\ 1.0\r\n
+comment1.params=g
+comment1.target=void\ add(GComponent)
+comment1.text=\r\n\ Add\ a\ component\ to\ the\ container.\r\n
+comment2.params=g
+comment2.target=void\ remove(GComponent)
+comment2.text=\r\n\ Remove\ a\ component\ from\ the\ container.\r\n
+comment3.params=
+comment3.target=int\ elementCount()
+comment3.text=\r\n\ how\ many\ elements\ are\ in\ this\ container.\r\n
+comment4.params=
+comment4.target=GComponent[]\ getElements()
+comment4.text=\r\n\ GEts\ an\ array\ of\ all\ the\ elements\ in\ the\ container.\r\n
+comment5.params=
+comment5.target=void\ update()
+numComments=6

@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=message\ slider
+comment0.target=Button(String,\ Slider)
+comment1.target=void\ act()
+comment1.text=\nAct\ -\ do\ whatever\ the\ Button\ wants\ to\ do.\ This\ method\ is\ called\ whenever\nthe\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n\n
+comment10.target=void\ reset()
+comment11.params=pressed
+comment11.target=void\ buttonPressed(boolean)
+comment12.params=message
+comment12.target=void\ createImages(String)
+comment13.target=void\ updateImage()
+comment2.params=pressed
+comment2.target=void\ setPressed(boolean)
+comment3.target=boolean\ getPressed()
+comment4.params=count
+comment4.target=void\ setCount(int)
+comment5.target=int\ getCount()
+comment6.params=display
+comment6.target=void\ setDisplayCount(boolean)
+comment7.target=boolean\ isDisplayCount()
+comment8.target=void\ increment()
+comment9.target=void\ decrement()
+numComments=14

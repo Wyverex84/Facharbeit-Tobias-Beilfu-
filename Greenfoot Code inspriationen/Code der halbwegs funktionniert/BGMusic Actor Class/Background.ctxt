@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Background
+comment0.text=\r\n\ PROJECT\:\ BGMusic\ Actor\ Class\ Demo\ with\ a\ preview\ of\ ArcBar\ Actor\ Class\r\n\ AUTHOR\:\ danpost\ (greenfoot.org\ username)\r\n\ DATE\:\ MAY\ 17,\ 2014\r\n\ REVISED\:\ OCTOBER\ 30,\ 2017\ (updated\ to\ Greenfoot\ version\ 3.1.0)\r\n\ \r\n\ Demo\ of\ the\ BGMusic\ class;\ an\ Actor\ class\ to\ control\ background\ music.\ \ Previews\ a\ demo\ of\ the\ ArcBar\r\n\ class;\ an\ Actor\ class\ for\ a\ curved\ bar\ or\ meter\ (a\ visual\ display\ of\ a\ quantitative\ measure\ --\ like\r\n\ for\ a\ health\ or\ progress\ bar,\ or\ for\ a\ gauge\ or\ meter).\r\n
+comment1.params=
+comment1.target=Background()
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Method\ act\:\ runs\ timers\ and\ performs\ mouse\ and\ keyboard\ triggered\ actions\r\n
+comment3.params=caption
+comment3.target=greenfoot.Actor\ getNewButton(java.lang.String)
+comment3.text=\r\n\ Method\ getNewButton\:\ creates\ an\ Actor\ object\ with\ a\ button\ image\ with\ the\ caption\ given;\ the\r\n\ image\ of\ the\ button\ is\ given\ the\ ability\ to\ change\ intensity\ as\ the\ mouse\ moves\ on\ and\ off\ it.\r\n\r\n\ @param\ caption\ the\ text\ to\ display\ on\ the\ button\r\n\ @return\ the\ button\ Actor\ object\ created\r\n
+comment4.params=
+comment4.target=void\ act()
+comment4.text=\r\n\ Method\ act\ (for\ button\ Actor)\:\ changes\ intensity\ of\ image\ for\ mouse\ hovering\ action\r\n
+numComments=5

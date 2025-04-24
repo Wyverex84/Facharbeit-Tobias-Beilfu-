@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=text\ fontFamily\ style\ size\ color\ picture\ leftJustifyPicture\ bothSides\ outline\ outlineColor\ borderImage
+comment0.target=Labels(String,\ String,\ int,\ int,\ Color,\ GreenfootImage,\ boolean,\ boolean,\ boolean,\ Color,\ GreenfootImage)
+comment0.text=\nThis\ class\ needs\ to\ extend\ Actor\ to\ make\ it\ possible\ \nto\ add\ it\ to\ a\ World\ object,\ among\ other\ things.\n\n
+comment1.params=image\ borderImage
+comment1.target=GreenfootImage\ drawTiledBorder(GreenfootImage,\ GreenfootImage)
+comment1.text=\nThe\ purpose\ of\ this\ method\ is\ to\ draw\ a\ line\ of\ images\nacross\ the\ top\ and\ the\ bottom\ of\ an\ incoming\ image.\n\n
+comment2.params=image\ color
+comment2.target=GreenfootImage\ drawOutline(GreenfootImage,\ Color)
+comment2.text=\nThe\ purpose\ of\ this\ method\ is\ to\ draw\ a\ solid\nrectangular\ border\ with\ a\ specified\ color\ around\ the\nincoming\ image.\n\n
+comment3.params=image\ picture\ left\ both
+comment3.target=GreenfootImage\ makePictureImage(GreenfootImage,\ GreenfootImage,\ boolean,\ boolean)
+comment3.text=\nThe\ purpose\ of\ this\ method\ is\ to\ draw\ a\ picture\ on\neither\ or\ both\ sides\ of\ an\ incoming\ image.<p><p>\n\nThe\ height\ of\ the\ picture\ may\ be\ smaller\ or\ larger\ \nthan\ the\ height\ of\ the\ text.\ \ Vertical\ centering\naccommodates\ both\ cases\ reasonably\ well.<p><p>\n\nA\ space\ of\ one\ pixel\ is\ inserted\ between\ the\npicture\ and\ the\ incoming\ image.\n\n
+comment4.params=text\ fontName\ style\ size\ color
+comment4.target=GreenfootImage\ makeTextImage(String,\ String,\ int,\ int,\ Color)
+comment4.text=\nThe\ purpose\ of\ this\ method\ is\ to\ draw\ the\ text\ on\ a\ntransparent\ image\ that\ is\ barely\ large\ enough\ to\ncontain\ the\ text\ in\ the\ specified\ font.\ Note\ that\ the\nspecified\ font\ can\ either\ be\ the\ name\ of\ a\ general\nfont\ family\ (such\ as\ SansSerif),\ or\ can\ be\ the\ name\nof\ a\ specific\ font\ (such\ as\ English157\ BT).\ \ I\ can't\ntell\ you\ for\ sure\ what\ will\ happen\ if\ the\ specified\nfont\ is\ not\ available,\ but\ I\ believe\ that\ a\ system-\ndependent\ default\ font\ will\ be\ used\ instead.\n\n
+numComments=5

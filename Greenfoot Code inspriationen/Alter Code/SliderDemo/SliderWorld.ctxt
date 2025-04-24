@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=SliderWorld()
+comment0.text=\nConstructor\ for\ objects\ of\ class\ SliderWorld.\n\n\n
+comment1.params=text\ col\ row
+comment1.target=void\ addButton(String,\ int,\ int)
+numComments=2

@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=ZDemo
+comment1.params=
+comment1.target=ZDemo()
+comment1.text=a\ simple\ world\ to\ demo\ the\ Zoomer\ class\ that\ can\ change\ the\ size\ of\ a\ world
+comment2.params=
+comment2.target=void\ started()
+comment3.params=
+comment3.target=void\ act()
+comment3.text=checks\ for\ button\ and\ keyboard\ actions
+numComments=4

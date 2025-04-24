@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=OnlineUtility
+comment0.text=\r\n\ A\ utility\ class\ to\ get\ information\ about\ weather\ the\ scenario\ is\ currently\ running\r\n\ on\ the\ website\ or\ in\ the\ Greenfoot\ application.\r\n\r\n\ @author\ RcCookie\r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=OnlineUtility()
+comment1.text=\r\n\ All\ the\ methods\ are\ static,\ you\ don't\ need\ any\ instances\ of\ this\ class.\r\n
+comment2.params=
+comment2.target=boolean\ testOnlineState()
+comment2.text=\r\n\ A\ simple\ test\ to\ figure\ out\ weather\ this\ scenario\ is\ currently\ running\ online\ or\ offline.\r\n\ More\ precisely,\ it\ actually\ rather\ tests\ if\ the\ scenario\ is\ running\ on\ native\ java\ like\r\n\ it\ does\ on\ the\ Greenfoot\ application.\ If\ you\ somehow\ manage\ to\ run\ Java\ in\ your\ browser\r\n\ like\ it\ was\ possible\ long\ ago\ this\ may\ also\ return\ 'offline'.\ By\ default\ the\ webside\ runs\r\n\ the\ JavaScript\ conversion\ of\ your\ scenario\ on\ the\ website,\ and\ because\ that\ conversion\r\n\ isn't\ so\ great\ it\ does\ not\ have\ all\ the\ classes\ and\ sometimes\ also\ produces\ other\ results\r\n\ for\ the\ same\ tasks.\ This\ is\ how\ this\ test\ works.\r\n\r\n\ @return\ Weather\ the\ scenario\ is\ running\ online\r\n
+comment3.params=state
+comment3.target=void\ emulateOnlineState(java.lang.Boolean)
+comment3.text=\r\n\ Emulates\ the\ online\ state\ to\ be\ the\ given\ one.\ Passing\ 'null'\ will\ not\ emulate\ the\r\n\ online\ state\ and\ return\ the\ 'real'\ state.\r\n\r\n\ <p>This\ is\ mainly\ intended\ for\ debugging\ purposes.\ It\ allows\ you\ to\ let\ your\ program\r\n\ think\ its\ online\ and\ react\ accordingly,\ so\ you\ don't\ have\ to\ upload\ your\ scenario\r\n\ just\ test\ it\ online.\r\n\r\n\ @param\ state\ The\ online\ state\ to\ emulate,\ 'null'\ for\ the\ real\ state\r\n
+comment4.params=
+comment4.target=boolean\ isOnline()
+comment4.text=\r\n\ Returns\ the\ online\ state\ of\ this\ session.\ If\ the\ state\ was\ emulated\ using\r\n\ emulateOnlineState(Boolean)\ the\ emulated\ state\ will\ be\ returned.\ Otherwise\ (by\ default)\r\n\ the\ real\ online\ state\ will\ be\ returned.\r\n\r\n\ <p>Knowing\ the\ online\ state\ of\ a\ session\ may\ be\ helpful\ in\ a\ number\ of\ ways,\ for\ example\r\n\ for\ showing\ different\ content,\ avoiding\ bug\ and\ missing\ classes\ online\ or\ adjusting\ some\r\n\ properties\ that\ have\ a\ different\ effect\ online\ (i.e.\ speed\ set\ to\ 50\ online\ is\ only\ about\r\n\ as\ fast\ as\ the\ speed\ 45\ offline).\r\n\r\n\ @return\ The\ (possibly\ emulated)\ online\ state\r\n
+comment5.params=
+comment5.target=boolean\ isRealOnline()
+comment5.text=\r\n\ Returns\ the\ real\ online\ state,\ independent\ of\ the\ emulated\ one.\r\n\r\n\ <p><b>This\ method\ should\ only\ be\ used\ for\ very\ crucial\ functionality.\ Otherwise\ 'isOnline()'\r\n\ should\ be\ preferred\ as\ it\ allows\ testing\ using\ emulation\!</b>\r\n\r\n\ @return\ The\ real\ online\ state\r\n
+numComments=6

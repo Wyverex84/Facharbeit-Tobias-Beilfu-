@@ -1,0 +1,37 @@
+Project notes
+-------------
+
+ActionListener replacement name ideas:
+CommandListener
+
+
+GUIComponent
+|
++-- Label
+|
++-- Button
+|
++-- TextField
+|
++--
+
+
+paintComponent: paints the background color
+paintBorder: paints the border
+paintChildren:
+
+
+http://java.sun.com/developer/onlineTraining/Media/2DText/index.html
+http://download.oracle.com/javase/1.4.2/docs/guide/2d/spec/j2d-fonts.html
+http://download.oracle.com/javase/tutorial/2d/text/drawmulstring.html
+http://download.oracle.com/javase/tutorial/2d/text/measuringtext.html
+-- has font measure image
+http://www.java2s.com/Code/Java/2D-Graphics-GUI/Text-Layout.htm
+
+Button: could cache focused images.
+Button: could put images in an array and use loop to reduce repeated code.
+Button: May need some delay before releasing click state in isPressed().
+
+ToDo
+----
+Add a ProgressBar from my StatusBar but that works more like JProgressBar.

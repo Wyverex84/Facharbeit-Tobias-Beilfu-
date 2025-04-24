@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=ButtonChecker
+comment0.text=\r\n\ Checks\ if\ a\ button\ has\ been\ pressed\ in\ the\ world.\r\n\r\n\ @author\ Ed\ Parrish\r\n\ @version\ 1\ on\ 11/25/2017\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Detect\ and\ react\ to\ button\ clicks.\r\n
+numComments=2

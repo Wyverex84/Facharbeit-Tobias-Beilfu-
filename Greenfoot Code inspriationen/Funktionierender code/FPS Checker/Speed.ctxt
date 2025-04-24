@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Speed
+comment0.text=\r\n\ PROJECT\:\ Speed<br>\r\n\ AUTHOR\:\ danpost\ (greenfoot.org\ username)<br>\r\n\ VERSION\:\ January\ 13,\ 2014<br>\r\n\ <br>\r\n\ DESCRIPION\:\ Shows\ the\ number\ of\ frames\ per\ second\ compared\ to\ the\ speed\ setting\ of\ a\ scenario.<br>\r\n\ <br>\r\n\ INSTRUCTION\:\ Click\ on\ green\ arrows\ to\ adjust\ the\ speed\ setting.\ \ The\ frames\ per\ second\ will\ reset.<br>\ \r\n
+comment1.params=
+comment1.target=Speed()
+comment1.text=\r\n\ Initialize\ the\ world\ (set\ up\ and\ add\ objects\ into\ the\ world)\r\n
+comment2.params=
+comment2.target=void\ updateSpeed()
+comment2.text=\r\n\ Sets\ a\ new\ image\ to\ the\ actor\ displaying\ the\ current\ scenario\ speed\r\n
+comment3.params=
+comment3.target=void\ updateFPS()
+comment3.text=\r\n\ Sets\ a\ new\ image\ to\ the\ actor\ displaying\ the\ last\ frames\ per\ second\ result\r\n
+comment4.params=
+comment4.target=void\ act()
+comment4.text=\r\n\ Checks\ for\ mouse\ clicks\ on\ arrow\ actors\ and\ tracks\ frames\ per\ second\ of\ scenario\r\n
+comment5.params=
+comment5.target=void\ setArrowImages()
+comment5.text=\r\n\ Creates\ and\ sets\ the\ images\ of\ the\ left\ and\ right\ arrows\ to\ the\ two\ arrow\ actors\r\n
+numComments=6

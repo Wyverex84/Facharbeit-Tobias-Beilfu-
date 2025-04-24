@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=GGui
+comment0.text=\r\n\ GGui\ os\ the\ standard\ interface\ for\ PIRocks'\ greenfoot\ gui.\r\n\ \r\n\ All\ objects\ that\ are\ part\ of\ greenfoot\ gui\ must\ implements\ GGUi.\r\n\ \r\n\ @author\ PiRocks\r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=greenfoot.GreenfootImage\ getPic()
+comment1.text=\r\n\ Gets\ an\ image\ to\ be\ drawn.\r\n
+comment2.params=
+comment2.target=void\ update()
+comment2.text=\r\n\ Update\ the\ image.\r\n
+comment3.params=m\ realX\ realY
+comment3.target=void\ handleInput(greenfoot.MouseInfo,\ int,\ int)
+comment3.text=\r\n\ Handle\ all\ key/mouse\ input.\ Callers\ of\ this\ method\ must\ specify\ the\ acctual\ coordinates\ of\ the\ objects\ render\ center.\r\n\ This\ needs\ to\ be\ specified\ because\ only\ in\ top-level\ containers\ does\ "getX()"\ and\ "getY()"\ perform\ properly.\ In\ other\ containers\ they\ won't\ even\ work...\r\n
+numComments=4

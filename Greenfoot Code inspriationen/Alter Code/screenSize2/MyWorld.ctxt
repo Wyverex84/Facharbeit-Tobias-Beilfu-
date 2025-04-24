@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=MyWorld
+comment0.text=\r\n\ This\ is\ where\ all\ the\ displaying\ happens.\r\n\r\n\ @author\ Yehuda\r\n\ @version\ Modified\:\ 1/30/2017\r\n\ @version\ Modified\:\ 5/3/2017\r\n
+comment1.params=
+comment1.target=MyWorld()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ MyWorld.\r\n\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ MyWorld\ wants\ to\ do.\ This\ method\ is\ called\ whenever\ the\ 'Act'\r\n\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment3.params=
+comment3.target=void\ highScore()
+comment3.text=\r\n\ This\ method\ displays\ the\ score\ board.\r\n
+comment4.params=
+comment4.target=void\ worldChanged()
+comment5.params=myInfo
+comment5.target=void\ setScore(greenfoot.UserInfo)
+comment5.text=\r\n\ This\ method\ sets\ the\ new\ score\ for\ the\ user.\ It\ (will)\ also\ sets\ the\ date\ and\ time\r\n\ that\ the\ high\ score\ was\ achieved.\r\n\r\n\ @param\ myInfo\ the\ user\ info\ to\ edit\ the\ score\r\n
+comment6.params=text\ size\ x\ y
+comment6.target=void\ showText(java.lang.String,\ int,\ int,\ int)
+comment6.text=\r\n\ This\ method\ is\ my\ own\ showText\ method\ in\ which\ you\ can\ also\ choose\ the\ size.\r\n\r\n\ @param\ text\ the\ text\ to\ be\ displayed\r\n\ @param\ size\ the\ size\ of\ the\ text\r\n\ @param\ x\ \ \ \ the\ x-coordinate\ that\ the\ text\ should\ be\ placed\ in\ the\ World\r\n\ @param\ y\ \ \ \ the\ y-coordinate\ that\ the\ text\ should\ be\ placed\ in\ the\ World\r\n
+comment7.params=
+comment7.target=void\ stopped()
+comment7.text=\r\n\ This\ method\ automatically\ gets\ called\ when\ the\ 'Pause'\ button\ gets\ pressed\ which\ it\r\n\ then\ displays\ "Press\ 'Run'".\r\n
+comment8.params=
+comment8.target=void\ started()
+comment8.text=\r\n\ This\ method\ automatically\ gets\ called\ when\ the\ 'Run'\ button\ gets\ pressed\ which\ it\r\n\ then\ removes\ the\ text\ "Press\ 'Run'".\r\n
+numComments=9

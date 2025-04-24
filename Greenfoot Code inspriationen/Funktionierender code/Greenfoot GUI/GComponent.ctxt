@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=GComponent
+comment0.text=\r\n\ GComponent\ is\ part\ of\ PiRocks'\ GReenfoot\ GUI\ package.\r\n\ \r\n\ More\ methods\ will\ be\ added\ in\ future\ releasese\ to\ increase\ versatility,\r\n\ but\ these\ two\ constructors\ are\ good\ enough\ for\ now.\r\n\ \r\n\ @author\ PiRocks\r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=GComponent()
+comment1.text=\r\n\ Creates\ a\ new\ GComponent\ -\ standard\ constructor.\r\n
+comment2.params=w\ h
+comment2.target=GComponent(int,\ int)
+comment2.text=\r\n\ Creates\ a\ new\ GComponent\ with\ the\ specified\ width\ and\ height.\r\n
+numComments=3

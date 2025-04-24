@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=SampleDialog
+comment1.params=
+comment1.target=void\ onChange()
+comment1.text=what\ to\ do\ when\ the\ value\ changes\ (not\ required\ on\ any\ component)
+comment2.params=
+comment2.target=void\ onClick()
+comment2.text=what\ to\ do\ when\ clicked\ (required\ on\ all\ buttons)
+comment3.params=world
+comment3.target=SampleDialog(greenfoot.World)
+comment3.text=\r\n\ Creates\ the\ dialog.\r\n
+comment4.params=
+comment4.target=void\ onClose()
+comment4.text=\r\n\ Called\ by\ dialog\ and\ used\ to\ determine\ if\ input\ was\ valid\ enough\ to\ close\r\n\ the\ dialog\ and\ proceed\ to\ the\ next\ world\ (required\ for\ all\ Dialog\ objects).\r\n
+numComments=5

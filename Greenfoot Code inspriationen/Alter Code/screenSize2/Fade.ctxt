@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Fade
+comment0.text=\r\n\ This\ class\ fades\ the\ specified\ text\ in\ and\ out.\r\n\r\n\ @author\ Yehuda\r\n\ @version\ 12/18/2016\r\n
+comment1.params=image\ fadeSpeed
+comment1.target=Fade(greenfoot.GreenfootImage,\ int)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Fade.\r\n\r\n\ @param\ image\ the\ image\ to\ fade\ in\ and\ out\r\n\ @param\ fadeSpeed\ the\ amount\ to\ increment\ to\ transparency\ level\ of\ the\r\n\ image\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ Text\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment3.params=
+comment3.target=void\ fade()
+comment3.text=\r\n\ This\ method\ changes\ the\ transparency\ up\ and\ down\ to\ make\ the\ text\ fade\ in\r\n\ and\ out\r\n
+numComments=4

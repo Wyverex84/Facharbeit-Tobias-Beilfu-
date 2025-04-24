@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=source\ menuItemClicked
+comment0.target=void\ clickCallback(Menu,\ int)
+comment1.params=source\ menuItemMoved
+comment1.target=void\ moveCallback(Menu,\ int)
+numComments=2

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Description()
+comment0.text=\nUse\ this\ constructor\ when\ you\ don't\ want\ to\ provide\nany\ detail\ at\ all\ in\ the\ call\ to\ the\ constructor.\n\n
+comment1.params=text
+comment1.target=Description(String)
+comment1.text=\nUse\ this\ constructor\ when\ you\ only\ want\ to\ provide\nthe\ text\ that\ is\ to\ appear\ on\ the\ menu\ element\ in\ the\ncall\ to\ the\ constructor.\n\n
+comment2.params=text\ font\ style\ size\ primaryColor\ rolloverColor\ picture\ leftJustifyPicture\ bothSides\ outline\ outlineColor\ borderImage
+comment2.target=Description(String,\ String,\ int,\ int,\ Color,\ Color,\ GreenfootImage,\ boolean,\ boolean,\ boolean,\ Color,\ GreenfootImage)
+comment2.text=\nUse\ this\ constructor\ when\ you\ want\ to\ include\ all\ of\nthe\ detail\ in\ the\ call\ to\ the\ constructor.\n\n
+numComments=3

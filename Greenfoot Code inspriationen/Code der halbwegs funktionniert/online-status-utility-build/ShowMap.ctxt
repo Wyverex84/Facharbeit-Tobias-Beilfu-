@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=ShowMap
+comment1.params=
+comment1.target=void\ usageExample()
+comment1.text=\r\n\ You\ can\ call\ this\ button\ by\ clicking\ onto\ the\ example\ button\ or\ by\ right-clicking\r\n\ onto\ 'ShowMap'\ and\ selecting\ 'usageExample()'.\r\n
+comment2.params=
+comment2.target=void\ updateText()
+comment2.text=\r\n\ This\ method\ is\ called\ whenever\ a\ switch\ was\ changed.\ It\ updates\ the\ title\ of\ the\ text\ elements.\r\n
+comment3.params=
+comment3.target=ShowMap()
+numComments=4

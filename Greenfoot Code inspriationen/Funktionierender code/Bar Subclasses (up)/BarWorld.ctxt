@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=BarWorld
+comment0.text=\r\n\ Class\ BarWorld\:\ a\ collection\ of\ sub-classes\ for\ my\ Bar\ class<br>\r\n\ <br>\r\n\ Author\:\ danpost<br>\r\n\ Version\:\ 2.0.1<br>\r\n
+comment1.params=
+comment1.target=BarWorld()
+comment1.text=\r\n\ a\ world\ for\ demonstrating\ my\ bar\ sub-classes\r\n
+comment2.params=
+comment2.target=void\ started()
+comment2.text=\r\n\ clears\ background\ image\ and\ prepares\ the\ world\r\n
+comment3.params=
+comment3.target=void\ addDescriptions()
+comment4.params=
+comment4.target=void\ addBars()
+comment5.params=
+comment5.target=void\ act()
+comment5.text=\r\n\ performs\ actions\ determined\ by\ the\ changes\ in\ the\ bar\ objects\r\n
+numComments=6

@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Button
+comment0.text=a\ simple\ class\ that\ creates\ button\ objects
+comment1.params=
+comment1.target=Button()
+comment1.text=creates\ a\ blank\ button\ object
+comment2.params=caption
+comment2.target=Button(java.lang.String)
+comment2.text=creates\ a\ button\ object\ with\ text
+comment3.params=
+comment3.target=void\ act()
+comment3.text=controls\ intensity\ of\ image\ on\ mouse\ hover\ events
+comment4.params=caption
+comment4.target=void\ setText(java.lang.String)
+comment4.text=\r\n\ creates\ an\ image\ of\ a\ button\ with\ the\ given\ string\ text\r\n\ @param\ caption\ the\ text\ the\ button\ is\ to\ display\r\n
+comment5.params=
+comment5.target=java.lang.String\ getText()
+comment5.text=\r\n\ returns\ the\ text\ captioned\ on\ the\ button\r\n\ @return\ the\ current\ button\ text\r\n
+numComments=6

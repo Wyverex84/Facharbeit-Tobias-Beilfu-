@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=GCanvas
+comment0.text=\r\n\ GCanvas\ is\ part\ of\ PiRocks'\ greenfoot\ gui\ package.\ It\ represents\ a\ Canvas\ object.\r\n\ \r\n\ @author\ PiRocks\r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=greenfoot.GreenfootImage\ getPic()
+comment1.text=\r\n\ Get\ the\ canvas's\ picture.\r\n\ Please\ note\ that\ drawing\ to\ this\ picture\ is\ not\ drawing\ onto\ the\ canvas.\r\n
+comment2.params=w\ h
+comment2.target=GCanvas(int,\ int)
+comment2.text=\r\n\ Creates\ a\ new\ GCanvas\ with\ the\ specified\ width\ and\ height.\r\n
+comment3.params=
+comment3.target=greenfoot.GreenfootImage\ getDrawPic()
+comment3.text=\r\n\ Gets\ the\ GreenfootImage\ reflected\ by\ this\ GCanvas.\r\n\ Used\ by\ the\ greenfoot\ gui\ package\ to\ draw\ onto.\r\n
+comment4.params=
+comment4.target=void\ update()
+comment4.text=\r\n\ Does\ nothing,\ must\ be\ overwritten\ in\ subclasses.\r\n
+comment5.params=m\ realX\ realY
+comment5.target=void\ handleInput(greenfoot.MouseInfo,\ int,\ int)
+comment5.text=\r\n\ Does\ nothing,\ must\ be\ overwritten\ in\ subclasses.\r\n
+numComments=6

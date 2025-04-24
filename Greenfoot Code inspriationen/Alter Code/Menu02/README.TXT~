@@ -1,0 +1,59 @@
+123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890
+
+PROJECT:  Menu02
+PURPOSE OF SCENARIO:
+This is a major upgrade of the scenario named Menu01, which I published earlier at 
+
+http://greenfootgallery.org/scenarios/194
+
+The earlier scenario was designed mainly to provide proof of concept.  This scenario is designed:
+
+A.  To deliver the source code for a working GUI class named Menu that can be used by objects of other classes to place 
+any number of custom GUI menus in a Greenfoot world.
+B.  To illustrate how to use the Menu class to create and service custom GUI menus.
+
+I am publishing this scenario in support of an article that I plan to publish on the topic of custom GUIs using
+Greenfoot.  If and when the article is published, you will find a link to the article at
+
+http://www.dickbaldwin.com/toc.htm
+
+The default screen display consists of two black menu headers and two target objects.  The default target object 
+on the left is an image of a butterfly.  The default target object on the right contains the word Right Target
+in PLAIN style surrounded by images of small frogs.  The menu items in the Left Menu can be used to cause the left
+target to switch among an image of a frog, a butterfly, or a bee.  The menu items in the Right Menu can be used to
+cause the right target to switch among PLAIN, ITALIC, BOLD, and BOLD-ITALIC styles surrounded by small frogs, 
+butterflies, and bees.
+
+When the user touches a black menu header with the mouse, it turns green and exposes a set of black menu items below
+the header.  The menu items in the Left Menu are:
+
+Frog
+Bee
+Butterfly
+
+The menu items in the Right Menu are:
+
+Bold Bees
+Italic Butterflies
+Plain Frogs
+Bold-Italic Bees
+
+The styles of the menu items in the Left Menu are all plain.  
+
+The style of each menu item in the Right Menu matches the text description.  In addition, a small image of a bee, a 
+butterfly, or a frog appears on each end of the text in each menu item in the Right Menu.
+
+When the user touches a black menu item, it turns green.  When the user touches another black menu item, the first one 
+turns black and the second one turns to green. Each time a menu item (not including the header) switches from black
+to green, a "ding" sound effect is played.
+
+When the user clicks a green menu item, the corresponding target display changes to match the text in the menu item.
+
+When the mouse retreats to the world background, the menu items disappear and the menu header returns to black.  In
+addition, both targets return to their default displays and a "bong" sound effect is played.
+
+AUTHOR: Dick Baldwin 
+VERSION: 07/19/08
+
+HOW TO START THIS PROJECT: Click the Run button
+USER INSTRUCTIONS: See the description above.

@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Dialog
+comment0.text=\r\n\ CLASS\:\ \ Dialog\ (abstract)<br>\r\n\ AUTHOR\:\ \ danpost\ (greenfoot.org\ username)<br>\r\n\ DATE\ CREATED\:\ \ April\ 23,\ 2019\ thru\ May\ 27,\ 2019<br>\r\n\ <br>\r\n\ DESCRIPTION\:\ A\ support\ class\ for\ worlds\ to\ emulate\ dialog\ boxes;\r\n\ uses\ may\ include\ menues,\ information\ provision\ and/or\ collection,\r\n\ status\ confirmation,\ etc.<br>\r\n\ <br>\r\n\ USE\:\ Create\ a\ subclass\ that\ adds\ components\ and\ images\ into\ the\ world.\r\n\ Add\ a\ 'protected\ void\ onClose'\ method\ to\ the\ class\ for\ any\ actions\r\n\ you\ may\ want\ to\ take\ before\ closing\ the\ dialog.\ \ You\ can\ also\ refuse\r\n\ the\ closing\ if\ any\ value(s)\ are\ not\ to\ the\ liking.<br>\r\n\ <br>\r\n\ You\ can\ add\ (override)\ a\ 'protected\ void\ onChange'\ method\ to\ any\r\n\ component\ to\ perform\ some\ action(s)\ when\ the\ value\ of\ the\ component\r\n\ changes.<br>\r\n\ <br>\r\n\ All\ Button\ object\ must\ have\ a\ 'protected\ void\ onClick'\ method\r\n\ asociated\ with\ them\ to\ perform\ whatever\ actions\ they\ are\ meant\ to\ do.\r\n
+comment1.params=w\ h
+comment1.target=void\ setSize(int,\ int)
+comment1.text=\r\n\ Sets\ the\ default\ dimensions\ to\ be\ used\ for\ new\ worlds.\r\n\ \r\n\ @param\ w\ width\ to\ give\ any\ new\ world\r\n\ @param\ h\ height\ to\ give\ any\ new\ world\r\n
+comment2.params=header
+comment2.target=Dialog(java.lang.String)
+comment2.text=\r\n\ Creates\ the\ "frame"\ with\ a\ "Close"\ button\ giving\ it\ the\ supplied\ name,\ if\ not\ null\r\n\ or\ empty.\r\n\ \r\n\ @param\ header\ name\ to\ go\ on\ title\ bar\r\n
+comment3.params=img\ x\ y
+comment3.target=void\ addImage(greenfoot.GreenfootImage,\ int,\ int)
+comment3.text=\r\n\ Draws\ the\ given\ image\ with\ its\ center\ at\ the\ given\ coordinates.\r\n\ \r\n\ @param\ img\ the\ image\ to\ draw\r\n\ @param\ x\ x-coordinate\ for\ center\ of\ image\r\n\ @param\ y\ y-coordinate\ for\ center\ of\ image\r\n
+comment4.params=text\ x\ y
+comment4.target=void\ addText(java.lang.String,\ int,\ int)
+comment4.text=\r\n\ Creates\ and\ draws\ the\ given\ centered\ text\ using\ standard\ attributes\r\n
+comment5.params=
+comment5.target=void\ focusOnNext()
+comment5.text=\r\n\ Sets\ focus\ on\ (makes\ the\ active\ component)\ that\ which\ was\ next\ added\ to\ the\ world.\r\n
+comment6.params=
+comment6.target=void\ act()
+comment6.text=\r\n\ Activates\ a\ component,\ if\ any\ exist.\r\n
+comment7.params=
+comment7.target=void\ onClose()
+comment7.text=\r\n\ All\ subclasses\ are\ required\ to\ override\ this;\ the\ purpose\ is\ to\ first\ determine\r\n\ if\ values\ were\ set\ appropriately\ (no\ conflictions,\ unwanted\ duplications,\ etc.),\r\n\ then\ to\ refuse\ closure\ or\ proceed\ to\ a\ different\ world.\r\n
+numComments=8

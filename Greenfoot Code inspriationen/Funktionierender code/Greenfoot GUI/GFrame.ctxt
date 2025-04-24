@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=GFrame
+comment0.text=\r\n\ This\ is\ part\ of\ PiRocks'\ Greenfoot\ GUI\ program.\r\n\ It\ is\ a\ window\ witha\ title\ that\ can\ can\ contain\ other\ GComponents.\r\n\ \r\n\ \r\n\ @author\ Michael\ (modified\ significantly\ by\ PiRocks)\r\n\ @version\ 1.1\r\n
+comment1.params=message
+comment1.target=GFrame(java.lang.String)
+comment1.text=\r\n\ Create\ a\ new\ GFrame\ with\ a\ message,\ default\ title\ ("Greenfoot"),default\ dimensions(200x50),\ and\ default\ title\ height\ (20).\r\n
+comment2.params=message\ title
+comment2.target=GFrame(java.lang.String,\ java.lang.String)
+comment2.text=\r\n\ Create\ a\ new\ GFrame\ with\ a\ message,\ title,\ default\ dimensions(200x50),\ and\ default\ title\ height\ (20).\r\n
+comment3.params=message\ title\ width\ height
+comment3.target=GFrame(java.lang.String,\ java.lang.String,\ int,\ int)
+comment3.text=\r\n\ Create\ a\ new\ GFramw\ with\ a\ message,\ title,\ dimensions,\ and\ default\ title\ height\ (20).\r\n
+comment4.params=message\ title\ width\ height\ titleHeight
+comment4.target=GFrame(java.lang.String,\ java.lang.String,\ int,\ int,\ int)
+comment4.text=\r\n\ Create\ a\ new\ GFrame\ with\ a\ message,\ title,\ dimensions,\ and\ dtitle\ height.\r\n
+comment5.params=
+comment5.target=void\ makeFrame()
+comment5.text=\r\n\ Build\ the\ window's\ initial\ image\ using\ the\ params\ specified\ in\ the\ constructors.\r\n
+comment6.params=
+comment6.target=void\ update()
+comment6.text=\r\n\ Update\ this\ frame's\ picture\ by\ calling\ all\ of\ the\ active\ contained\ elements'\ update\ method,\r\n\ and\ then\ drawing\ their\ newly\ generated\ images.\ \r\n
+comment7.params=m\ realX\ realY
+comment7.target=void\ handleInput(greenfoot.MouseInfo,\ int,\ int)
+comment7.text=\r\n\ Handles\ mouse\ input.\ For\ the\ moment\ this\ just\ transfers\ the\ data\ over\ to\r\n\ all\ of\ the\ active\ contained\ elements'\ handleInput\ method.\r\n\ \r\n\ This\ method\ also\ sees\ if\ the\ window\ should\ be\ moved.\ Window\ movement\ code\ is\ <em>very</em>\r\n\ buggy.\ Working\ on\ making\ more\ reliable.\r\n\ \r\n\ In\ a\ future\ version,\ code\ to\ close/resize\ this\ window\ will\ be\ added.\r\n
+numComments=8
