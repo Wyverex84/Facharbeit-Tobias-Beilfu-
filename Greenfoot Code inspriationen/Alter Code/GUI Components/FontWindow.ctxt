@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.params=
+comment0.target=FontWindow()
+comment0.text=\n\ Create\ a\ new\ FontWindow.\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\n\ Act.\n
+comment2.params=
+comment2.target=java.awt.Font\ getSelectedFont()
+comment3.params=font
+comment3.target=void\ toggleShow(java.awt.Font)
+comment3.text=\n\ Does\ what\ toggleShow()\ does\ but\ with\ given\ Font\ as\ inital\ selected\ Font.\n\ @param\ font\ The\ Font\ to\ be\ initially\ selected.\n\ @see\ toggleShow()\n
+comment4.params=
+comment4.target=java.awt.Font\ getResult()
+comment4.text=\n\ Action\ listener\ for\ the\ FontWindow.\n\ @return\ The\ Font\ selected\ when\ "Enter"\ Button\ was\ clicked.\ If\ Button\ wasn't\ clicked,\ returns\ null.\n
+comment5.params=
+comment5.target=void\ initializeOpen()
+comment5.text=\n\ Reset\ result.\n
+comment6.params=
+comment6.target=java.awt.Point\ getFontWindowSize()
+comment7.params=
+comment7.target=java.awt.Point\ getFontWindowLocation()
+comment8.params=x\ y
+comment8.target=void\ setLocation(int,\ int)
+numComments=9

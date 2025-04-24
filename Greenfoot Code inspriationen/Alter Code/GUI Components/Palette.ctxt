@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Palette()
+comment0.text=\n\ A\ new\ Palette\ with\ some\ default\ colors\ stored.\n
+comment1.params=c
+comment1.target=Palette(java.awt.Color)
+comment1.text=\n\ A\ new\ Palette\ with\ some\ default\ colors\ stored,\ with\ Color\ given\ stored\ and\ active.\n\ @param\ c\ The\ Color\ the\ Palette\ will\ have\ contained\ within\ its\ first\ memory\ slot\ (being\ the\ one\ first\ selected).\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\n\ Act.\n
+comment3.params=
+comment3.target=void\ initializeOpen()
+comment4.params=
+comment4.target=void\ callToEscape()
+comment4.text=\n\ Overwriting\ Window's\ callToEscape\ so\ that\ if\ looking\ for\ a\ Color\ among\ the\ World\ and\ its\ Actors,\ pressing\ escape\ cancels\ this\ action,\ otherwise\ closes\ like\ Window.\n
+comment5.params=c
+comment5.target=void\ toggleShow(java.awt.Color)
+comment5.text=\n\ Does\ what\ toggleShow()\ does\ but\ gives\ a\ Color\ value\ to\ be\ the\ initial\ selected\ Color.\n\ @param\ c\ Color\ to\ be\ initially\ selected\ Color.\n\ @see\ toggleShow()\n
+comment6.params=
+comment6.target=java.awt.Color\ getResult()
+comment6.text=\n\ Action\ listener\ for\ the\ Palette.\ When\ "Enter"\ Button\ is\ clicked,\ will\ return\ Color\ last\ selected.<p>\n\ Resets\ once\ called.\ (Get\ one\ result\ with\ one\ use\ of\ "Enter"\ Button).\n\ @return\ Color\ last\ selected.\ Null\ if\ "Enter"\ Button\ was\ not\ clicked.\n
+comment7.params=c
+comment7.target=void\ setColor(java.awt.Color)
+comment7.text=\n\ Set\ the\ current\ active\ memory\ slot\ to\ the\ given\ Color\ and\ updates\ Sliders.\n\ @param\ c\ The\ Color\ to\ set\ as\ active\ Color.\n
+numComments=8

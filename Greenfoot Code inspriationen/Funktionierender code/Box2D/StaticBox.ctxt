@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=StaticBox
+comment1.params=width\ height
+comment1.target=StaticBox(float,\ float)
+comment2.params=
+comment2.target=org.jbox2d.dynamics.FixtureDef\ getFixtureDef()
+numComments=3

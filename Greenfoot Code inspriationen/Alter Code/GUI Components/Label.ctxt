@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=text\ font\ color
+comment0.target=Label(java.lang.String,\ java.awt.Font,\ java.awt.Color)
+comment1.params=text
+comment1.target=Label(java.lang.String)
+comment1.text=\n\ Create\ a\ new\ Label.\n\ @param\ text\ The\ text\ this\ label\ will\ display.\n\ @param\ leftJustifyInContainers\ Whether\ or\ not\ this\ Label\ will\ left\ justify\ within\ cells\ of\ Containers.\n
+comment2.params=
+comment2.target=void\ redraw()
+comment3.params=
+comment3.target=greenfoot.GreenfootImage\ draw()
+comment3.text=\n\ Update\ this\ Label's\ image.\n
+comment4.params=
+comment4.target=int[]\ getTextAttributes()
+comment5.params=text
+comment5.target=void\ setText(java.lang.String)
+comment5.text=\n\ Set\ what\ text\ this\ Label\ will\ display.\n\ @param\ text\ The\ text\ this\ Label\ will\ display.\n
+comment6.params=
+comment6.target=java.lang.String\ getText()
+comment6.text=\n\ Get\ the\ text\ this\ Label\ is\ displaying.\n\ @return\ The\ text\ this\ Label\ is\ displaying.\n
+numComments=7

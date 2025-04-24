@@ -1,0 +1,193 @@
+import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+
+/**
+ * Write a description of class Screen here.
+ * 
+ * @author Taylor Born
+ * @version November 2010
+ */
+import java.util.*;
+import java.awt.Font;
+public class Screen  extends World
+{
+    private Button btnClick;
+    private SwitchButton btnAction;
+    private ListBox myList;
+    private Label lblCounter;
+    private Label lblWords;
+    private SwitchButton btnEn;
+    private SwitchButton btnBold;
+    private TextBox txtB;
+    
+    private Menu myMenu;
+    
+    public Screen()
+    {
+        super(600, 400, 1);
+        
+        // Initialize Button with text "Click this" and with size 100 x 23
+        btnClick = new Button("Click this", new Point(100, 23));
+        // Add it to the world
+        addObject(btnClick, 61, 22);
+        
+        // Create an ArrayList of Strings
+        ArrayList<String> strs = new ArrayList<String>(){{add("Add Counter"); add("Add Word");}};
+        // Initialize SwitchButton with ArrayList of Strings, with size 100 x 23, and text starting index of 1
+        btnAction = new SwitchButton(strs, new Point(100, 23), 0);
+        // Add it to the world
+        addObject(btnAction, 192, 22);
+        
+        // Add a label
+        addObject(new Label("To"), 126, 26);
+        
+        // Add a label
+        addObject(new Label("A Listbox that holds a list of Strings."), 115, 185);
+        addObject(new Label("Selectable and Scrollable"), 115, 198);
+        
+        // Create an ArrayList of Strings
+        ArrayList<String> strs2 = new ArrayList<String>(){{add("Fruit"); add("Breads"); add("Meats"); add("Dairy"); add("Sweets"); add("Vegetables"); add("Nuts"); add("Cakes"); add("Pies"); add("Fast Food"); add("Peanut Butter"); add("Water"); add("Root Beer");}};
+        
+        // Initialize ListBox with size and ArrayList of String
+        myList = new ListBox(new Point(130, 78), strs2);
+        // Add it to the world
+        addObject(myList, 115, 248);
+        
+        // Add a label
+        addObject(new Label("(Click this button to change action of other button)"), 394, 26);
+        
+        // Add a label
+        addObject(new Label("Label for my labels below:"), 100, 84);
+        
+        // Initialize Label with String
+        lblCounter = new Label("0");
+        // Add it to the world
+        addObject(lblCounter, 100, 104);
+        
+        // Initialize Label with String
+        lblWords = new Label("Random Words");
+        // Add it to the world
+        addObject(lblWords, 100, 124);
+        
+        btnEn = new SwitchButton(new ArrayList<String>(){{add("Enable Buttons"); add("Disable Buttons");}}, new Point(100, 23), 1);
+        addObject(btnEn, 61, 51);
+        
+        btnBold = new SwitchButton(new ArrayList<String>(){{add("Make Bold"); add("Make Regular");}}, new Point(100, 23), 0);
+        addObject(btnBold, 444, 143);
+        
+        addObject(new Label("TextBox, - In progress"), 444, 185);
+        addObject(new Label("Click on it to give it focus"), 444, 198);
+        txtB = new TextBox(new Point(140, 75), "A TextBox that is word-wrapped, scrollable, typeable, sizeable. Must have focus in order to edit. Click somewhere to move the blinking cursor there. Can press the left and right arrow keys to also move it. Works with different Fonts and sizes. Try out the button above to Bold and unBold this TextBox. Still in progress!");
+        addObject(txtB, 444, 248);
+        
+        addObject(new Label("ListBoxes and TextBoxes offer methods that allow you to use & change what's in them"), 300, 350);
+        
+        ArrayList<String> menuStr = new ArrayList<String>(){{add("TextBox"); add("Test"); add("Fun"); add("Tools"); add("Options"); }};
+        myMenu = new Menu(menuStr);
+        myMenu.addItem("TextBox/Font");
+        myMenu.addItem("TextBox/Font/Family");
+        myMenu.addItems("TextBox/Font/Family/", new ArrayList<String>(){{add("Arial"); add("Courier New"); add("Impact"); add("Times New Roman"); }});
+        
+        myMenu.addItem("TextBox/Font/Size");
+        myMenu.addItems("TextBox/Font/Size/", new ArrayList<String>(){{add("8"); add("12"); add("14"); add("16"); add("20"); }});
+        
+        myMenu.addItem("TextBox/Font/Style");
+        myMenu.addItems("TextBox/Font/Style/", new ArrayList<String>(){{add("Regular"); add("Bold"); add("Italic"); }});
+        
+        myMenu.addItem("TextBox/Clear");
+        myMenu.addItem("TextBox/Print");
+        
+        myMenu.addItems("Test/", new ArrayList<String>(){{add("A Greenfoot menu!"); add("=)"); add("Test Test Test"); add("Movies"); add("Food"); }});
+        
+        myMenu.addItems("Test/Movies/", new ArrayList<String>(){{add("Air Force One"); add("Iron Man"); add("Back To The Future"); add("Land Before Time"); }});
+        myMenu.addItems("Test/Movies/Iron Man/", new ArrayList<String>(){{add("1"); add("2"); }});
+        myMenu.addItems("Test/Movies/Back To The Future/", new ArrayList<String>(){{add("1"); add("2"); add("3");}});
+        myMenu.addItems("Test/Movies/Land Before Time/", new ArrayList<String>(){{add("1"); add("2"); add("3"); add("4"); add("..."); add("11"); add("12"); add(".."); add("?"); }});
+        
+        myMenu.addItems("Test/Food/", new ArrayList<String>(){{add("Chicken Spaghetti"); add("Lasagna"); add("Pizza"); }});
+        
+        myMenu.addItem("Fun/Yes!");
+        
+        myMenu.addItem("Tools/...");
+        myMenu.addItem("Options/...");
+        
+        addObject(myMenu, 310, 50);
+        
+        Greenfoot.start();
+    }
+    public void act()
+    {
+        String s = myMenu.getItemPressed();
+        if (s != null)
+        {
+            if (s.startsWith("TextBox/"))
+            {
+                s = s.substring(s.indexOf("/") + 1);
+                if (s.startsWith("Font/"))
+                {
+                    s = s.substring(s.indexOf("/") + 1);
+                    if (s.startsWith("Family/"))
+                    {
+                        s = s.substring(s.indexOf("/") + 1);
+                        txtB.setFont(new Font(s.substring(0, s.length() - 1), txtB.getFont.getStyle(), txtB.getFont().getSize()));
+                    }
+                    else if (s.startsWith("Size/"))
+                    {
+                        s = s.substring(s.indexOf("/") + 1);
+                        txtB.setFont(new Font(txtB.getFont().getFamily(), txtB.getFont.getStyle(), Integer.parseInt(s.substring(0, s.length() - 1))));
+                    }
+                    else if (s.startsWith("Style/"))
+                    {
+                        s = s.substring(s.indexOf("/") + 1);
+                        if (s.equals("Regular/"))
+                            txtB.setFont(new Font(txtB.getFont().getFamily(), Font.PLAIN, txtB.getFont().getSize()));
+                        else if (s.equals("Bold/"))
+                            txtB.setFont(new Font(txtB.getFont().getFamily(), Font.BOLD, txtB.getFont().getSize()));
+                        else if (s.equals("Italic/"))
+                            txtB.setFont(new Font(txtB.getFont().getFamily(), Font.ITALIC, txtB.getFont().getSize()));
+                    }
+                }
+                else if (s.startsWith("Clear/"))
+                    txtB.setText("");
+                else if (s.startsWith("Print/"))
+                    System.out.println(txtB.getText());
+            }
+        }
+        
+        // Listen for if the Button is clicked
+        if (btnClick.wasClicked())
+        {
+            // Do something
+            
+            // Add 1 to the number already in my lblCounter
+            if (btnAction.getText().equals("Add Counter"))
+                lblCounter.setText("" + (Integer.parseInt(lblCounter.getText()) + 1));
+            else
+            {
+                // Check if label's String is long and should be reseted
+                if (lblWords.getText().length() > 25)
+                    lblWords.setText("");
+                // Add a random word from the ListBox to the Label
+                lblWords.setText(lblWords.getText() + " " + myList.getString(Greenfoot.getRandomNumber(myList.listSize())));
+            }
+        }
+        
+        // Listen for if the SwitchButton is clicked
+        if (btnAction.wasClicked())
+        {
+            // Do something
+        }
+        if (btnEn.wasClicked())
+        {
+            btnClick.setEnable(btnEn.getIndex() != 0);
+            btnAction.setEnable(btnEn.getIndex() != 0);
+        }
+        if (btnBold.wasClicked())
+        {
+            if (btnBold.getIndex() == 0)
+                txtB.setFont(new Font(txtB.getFont().getFamily(), Font.PLAIN, txtB.getFont().getSize()));
+            else
+                txtB.setFont(new Font(txtB.getFont().getFamily(), Font.BOLD, txtB.getFont().getSize()));
+            
+        }
+    }
+}

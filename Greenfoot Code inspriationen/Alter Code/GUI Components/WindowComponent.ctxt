@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.params=
+comment0.target=boolean\ hasChangedGUISize()
+comment0.text=\n\ Listener\ to\ be\ called\ by\ Container.\n\ @return\ Whether\ this\ WindowComponent's\ GUI\ width\ or\ height\ has\ changed\ since\ last\ call.\n
+comment1.params=leftSide\ xRange\ topSide\ yRange
+comment1.target=void\ setLocationInContainerCell(int,\ int,\ int,\ int)
+comment1.text=\n\ Called\ within\ Container\ to\ set\ this\ WindowComponent's\ location\ within\ World\ to\ be\ within\ a\ cell\ of\ grid/table\ structure.<p>\n\ @param\ leftSide\ The\ x-coordinate\ of\ the\ left\ side\ of\ the\ cell\ assigned\ to.\n\ @param\ xRange\ The\ width\ in\ pixels\ of\ the\ cell\ assigned\ to.\n\ @param\ topSide\ The\ y-coordinate\ of\ the\ top\ side\ of\ the\ cell\ assigned\ to.\n\ @param\ yRange\ The\ height\ in\ pixels\ of\ the\ cell\ assigned\ to.\n\ @see\ addToWorldInContainerCell(World,\ int,\ int,\ int,\ int)\n
+comment2.params=world\ leftSide\ xRange\ topSide\ yRange
+comment2.target=void\ addToWorldInContainerCell(greenfoot.World,\ int,\ int,\ int,\ int)
+comment2.text=\n\ Called\ within\ Container\ to\ add\ this\ WindowComponent\ to\ the\ World\ within\ a\ cell\ of\ grid/table\ structure.<p>\n\ @param\ leftSide\ The\ x-coordinate\ of\ the\ left\ side\ of\ the\ cell\ assigned\ to.\n\ @param\ xRange\ The\ width\ in\ pixels\ of\ the\ cell\ assigned\ to.\n\ @param\ topSide\ The\ y-coordinate\ of\ the\ top\ side\ of\ the\ cell\ assigned\ to.\n\ @param\ yRange\ The\ height\ in\ pixels\ of\ the\ cell\ assigned\ to.\n\ @see\ setLocationInContainerCell(World,\ int,\ int,\ int,\ int)\n
+comment3.params=range
+comment3.target=int\ getJustifyX(int)
+comment4.params=range
+comment4.target=int\ getJustifyY(int)
+comment5.params=j
+comment5.target=void\ justifyHorizontally(int)
+comment5.text=\n\ Justify\ this\ WindowComponent\ horizontally\ within\ its\ Container's\ column\ \n
+comment6.params=j
+comment6.target=void\ justifyVertically(int)
+comment6.text=\n\ Justify\ this\ WindowComponent\ vertically\ within\ its\ Container's\ row\ \n
+numComments=7

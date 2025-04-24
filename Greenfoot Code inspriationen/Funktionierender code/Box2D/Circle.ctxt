@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Circle
+comment1.params=radius\ density\ bounce
+comment1.target=Circle(float,\ float,\ float)
+comment2.params=radius\ density\ bounce
+comment2.target=org.jbox2d.dynamics.FixtureDef\ getFixtureDef(float,\ float,\ float)
+comment3.params=
+comment3.target=org.jbox2d.dynamics.BodyDef\ getBodyDef()
+numComments=4

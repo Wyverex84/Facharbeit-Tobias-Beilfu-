@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.params=text\ checked
+comment0.target=CheckBoxLabel(java.lang.String,\ boolean)
+comment0.text=\n\ New\ CheckBoxLabel.\n\ @param\ text\ The\ String\ to\ display.\n\ @param\ leftJustifyInContainers\ Whether\ or\ not\ this\ Label\ will\ left\ justify\ within\ cells\ of\ Containers.\n\ @param\ checked\ The\ initial\ "checked"\ status.\n
+comment1.params=e
+comment1.target=void\ enable(boolean)
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\n\ Act.<p>\n\ Listen\ for\ mouse\ press,\ to\ alter\ "checked"\ status.\n
+comment3.params=
+comment3.target=greenfoot.GreenfootImage\ draw()
+comment4.params=
+comment4.target=boolean\ isChecked()
+comment4.text=\n\ Check\ this\ CheckBoxLabel's\ "checked"\ status.\n\ @return\ Whether\ or\ not\ "checked"\ status\ is\ true.\n
+comment5.params=c
+comment5.target=void\ setChecked(boolean)
+comment5.text=\n\ Set\ the\ "checked"\ status.\n\ @param\ c\ Whether\ or\ not\ "checked"\ status\ will\ be\ set\ true.\n
+comment6.params=
+comment6.target=boolean\ hasChanged()
+comment6.text=\n\ Action\ listener\ for\ this\ CheckBoxLabel.\n\ @return\ Whether\ or\ not\ the\ "checked"\ status\ of\ this\ CheckBoxLabel\ has\ changed.\n
+numComments=7

@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=prompt
+comment0.target=ConfirmWindow(java.lang.String)
+comment0.text=\n\ New\ ConfirmWindow\ with\ the\ given\ prompt\ as\ its\ title.\n\ @param\ prompt\ What\ title\ is\ to\ be\ displayed\ for\ this\ Window.\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\n\ Act.<p>\n\ Listen\ for\ when\ the\ confirm\ and\ cancel\ Buttons\ are\ clicked,\ which\ case\ the\ ConfirmWindow\ will\ close.<p>\n\ If\ the\ confirm\ Button\ was\ clicked,\ the\ action\ listener\ method\ isConfirmed()\ will\ return\ true.\n
+comment2.params=t
+comment2.target=void\ toggleShow(java.lang.String)
+comment3.params=
+comment3.target=boolean\ isConfirmed()
+comment3.text=\n\ Action\ listener\ for\ this\ ConfirmWindow.\n\ @return\ Whether\ or\ not\ the\ confirm\ Button\ had\ been\ pressed.\n
+comment4.params=
+comment4.target=void\ initializeOpen()
+comment4.text=\n\ Reset\ confirmation.\n
+numComments=5

@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=prompt\ max
+comment0.target=InputWindow(java.lang.String,\ int)
+comment0.text=\n\ New\ InputWindow.\n\ @param\ prompt\ What\ title\ is\ to\ be\ displayed\ for\ this\ Window.\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\n\ Act.<p>\n\ Listen\ for\ when\ the\ enter\ and\ cancel\ Buttons\ are\ clicked,\ which\ case\ the\ ConfirmWindow\ will\ close.<p>\n\ If\ the\ enter\ Button\ was\ clicked,\ the\ action\ listener\ method\ getResult()\ will\ return\ the\ TextBox's\ contents.\n
+comment2.params=
+comment2.target=java.lang.String\ getResult()
+comment2.text=\n\ Action\ listener\ for\ this\ InputWindow.\n\ @return\ The\ contents\ of\ the\ TextBox\ if\ the\ enter\ Button\ was\ clicked,\ otherwise\ null.\n
+comment3.params=value
+comment3.target=void\ toggleShow(java.lang.String)
+comment3.text=\n\ Switch\ between\ being\ set\ to\ show\ and\ not.<p>\n\ If\ hidden\ status\ is\ false,\ will\ be\ added\ or\ removed\ from\ World\ according\ to\ new\ show\ status.<p>\n\ Used\ instead\ of\ toggleShow()\ when\ wanting\ to\ add\ to\ World\ with\ the\ given\ initial\ value\ for\ the\ TextBox.\n\ @param\ value\ Text\ to\ be\ set\ as\ the\ TextBox's\ contents.\n\ @see\ toggleShow()\n
+comment4.params=
+comment4.target=void\ initializeOpen()
+comment4.text=\n\ When\ open,\ give\ TextBox\ focus\ and\ reset\ result.\n
+numComments=5

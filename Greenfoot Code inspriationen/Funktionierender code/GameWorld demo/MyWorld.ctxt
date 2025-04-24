@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=MyWorld
+comment1.params=
+comment1.target=MyWorld()
+comment2.params=
+comment2.target=void\ gameUpdate()
+comment3.params=
+comment3.target=void\ restart()
+comment4.params=
+comment4.target=void\ quit()
+numComments=5
