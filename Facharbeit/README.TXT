@@ -21,7 +21,7 @@ AUTHORS:
 
 Beinhaltet Code Von/importierte Classen: 
     GifImage(von Michael Berry, Neil Brown), 
-    GamePad/Direction(),
+    
 
 USER INSTRUCTIONS:
 

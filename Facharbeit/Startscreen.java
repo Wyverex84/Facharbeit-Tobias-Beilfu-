@@ -64,9 +64,11 @@ public class Startscreen extends World
      * 
      */
     public Startscreen()
-    {    
-        // Erstellt eine neue welt mit500x600 Zellen mit einer Zellgröße von 1x1 Pixel.
+    {   
+        // Erstellt eine neue welt mit400x600 Zellen mit einer Zellgröße von 1x1 Pixel.
         super(400, 600, 1);
+        // startet das Spiel automatisch
+        Greenfoot.start(); 
         // fügt den Startbutton und den Stopbutton hinzu
         start();
         // fügt den Titel hizu
@@ -103,7 +105,7 @@ public class Startscreen extends World
         //fügt den Text hinzu
         showText("Odysseus Landung", 200, 100);
     }
-    void Hintergrund()
+    private void Hintergrund()
     {
         //fügt den Hintergrund hinzu
         GreenfootImage hintergrund = new GreenfootImage("Startscreen_Hintergrund.png");

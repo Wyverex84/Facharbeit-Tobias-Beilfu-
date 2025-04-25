@@ -43,6 +43,7 @@ public class Game extends World
         // Create a new world with 500x600 cells with a cell size of 1x1 pixels.
         super(400, 600, 1); 
         prepare();
+        hintergrund
     }
     
     private void prepare() 
@@ -51,8 +52,9 @@ public class Game extends World
         Sonde sonde = new Sonde();
         addObject(sonde, getWidth() / 2, getHeight() / 2);
     }
-    void Hintergrund(String filename, int width, int height, World world)
+    private void Hintergrund()
     {
-        
+        GreenfootImage background = new GreenfootImage(filename);
+        world.setBackground(background);  
     }
 }
