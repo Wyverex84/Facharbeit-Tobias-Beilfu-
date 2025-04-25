@@ -34,27 +34,34 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class Game extends World
 {
 
-    /**
-     * Constructor for objects of class Game.
-     * 
-     */
+    // Deklaration der Variablen
+    private Sonde sonde;
+    private Mond mond;
+
     public Game()
     {    
         // Create a new world with 500x600 cells with a cell size of 1x1 pixels.
-        super(400, 600, 1); 
-        prepare();
-        hintergrund
+        super(400, 600, 1);
+        mond(); 
+        Sonde();
+        Hintergrund();
     }
     
-    private void prepare() 
+    private void Sonde() 
     {
         // Füge die Sonde in die Mitte der Welt ein
-        Sonde sonde = new Sonde();
+        sonde = new Sonde();
         addObject(sonde, getWidth() / 2, getHeight() / 2);
+    }
+    
+    private void mond()
+    {
+        Mond mond = new Mond();
+        addObject(mond, 200, 600);
     }
     private void Hintergrund()
     {
-        GreenfootImage background = new GreenfootImage(filename);
-        world.setBackground(background);  
+        GreenfootImage background = new GreenfootImage("Game_Hintergrund.png");
+        setBackground(background);  
     }
 }
