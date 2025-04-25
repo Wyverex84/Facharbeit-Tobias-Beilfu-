@@ -29,18 +29,5 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class Commen  
 {
-    /**
-     * Setzt den Hintergrund der Welt auf ein Bild.
-     * @param img Das Bild, das als Hintergrund verwendet werden soll.
-     * @param world Die Welt, deren Hintergrund gesetzt werden soll.
-     */
-    public static void Hintergrund(String filename, int width, int height, World world) 
-    {
-        // Erstellen Sie ein neues GreenfootImage-Objekt mit dem angegebenen Dateinamen.
-        GreenfootImage img = new GreenfootImage(filename);
-        // Skalieren Sie das Bild auf die angegebenen Breite und Höhe.
-        img.scale(width, height);
-        // Setzen Sie das Hintergrundbild der Welt auf das skalierte Bild.
-        world.setBackground(img);
-    }
+
 }

@@ -43,12 +43,22 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * <th><b style="font-size:80%;">22.04.2025:</b></th>
  * <td>Hintergrund erstellt (noch kein hintergrundbild vorhanden)</td>
  * </tr>
+ * 
+ * <tr>
+ * <th rowspan="2"><b style="font-size:80%;">25.04.2025:</b></th>
+ * <td>Commen.Hintergrundbild Entfernt</td>
+ * </tr>
+ * 
+ * <tr>
+ * <td>Hintergrundbild methode hinzugefügt</td>
+ * </tr>
  * </table>
  */
 public class Startscreen extends World
 {
     // Deklaration der Variablen
     private Startbutton startbutton;
+    private Stopbutton stopbutton;
     /**
      * Constructor for objects of class Startscreen.
      * 
@@ -56,31 +66,47 @@ public class Startscreen extends World
     public Startscreen()
     {    
         // Erstellt eine neue welt mit500x600 Zellen mit einer Zellgröße von 1x1 Pixel.
-        super(500, 600, 1);
+        super(400, 600, 1);
+        // fügt den Startbutton und den Stopbutton hinzu
         start();
+        // fügt den Titel hizu
         Title();
+        // fügt den Hintergrund hinzu
         Hintergrund();
     }
     public void act()
     {
-        //wenn auf Playbutton geklickt wird wird die weld Auf MyWorld gesetzt
-        if (Greenfoot.mouseClicked(startbutton))
-        {
-            Greenfoot.setWorld(new Game());
-        }
+        // ruft die Methode auf um zu prüfen ob der button geklickt wurde
+        isbuttonclicked();
     }
     void start()
     {
         startbutton = new Startbutton();
-        addObject(startbutton, 250, 300);
+        stopbutton = new Stopbutton();
+        addObject(startbutton, 200, 480);
+        addObject(stopbutton, 200, 520);
+    }
+    void isbuttonclicked()
+    {
+        //prüft ob der button geklickt wurde
+        if (Greenfoot.mouseClicked(startbutton))
+        {
+            Greenfoot.setWorld(new Game());
+        }
+        if (Greenfoot.mouseClicked(stopbutton))
+        {
+            Greenfoot.stop();
+        }
     }
     void Title()
     {
         //fügt den Text hinzu
-        showText("Odysseus Landung", 250, 100);
+        showText("Odysseus Landung", 200, 100);
     }
-    void Hintergrund(String filename, int width, int height, World world)
+    void Hintergrund()
     {
-        Commen.Hintergrund("Facharbeit\images\weltall.png",500,600,this);
+        //fügt den Hintergrund hinzu
+        GreenfootImage hintergrund = new GreenfootImage("Startscreen_Hintergrund.png");
+        setBackground(hintergrund);
     }
 }

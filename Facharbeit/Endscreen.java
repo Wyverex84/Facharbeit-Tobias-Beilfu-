@@ -42,10 +42,10 @@ public class Endscreen extends World
     public Endscreen()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(500, 600, 1); 
+        super(400, 600, 1); 
     }
     void Hintergrund(String filename, int width, int height, World world)
     {
-        Commen.Hintergrund("weltall.png",500,600,this);
+        
     }
 }
