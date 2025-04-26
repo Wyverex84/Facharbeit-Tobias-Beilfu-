@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=void\ act()
+comment0.text=\nAct\ -\ do\ whatever\ the\ Enemy\ wants\ to\ do.\ This\ method\ is\ called\ whenever\nthe\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n\n
+comment1.target=double[]\ getPosition()
+comment2.target=double\ r()
+comment3.target=double\ vel()
+comment4.target=void\ hurt()
+comment5.target=Color\ color()
+numComments=6

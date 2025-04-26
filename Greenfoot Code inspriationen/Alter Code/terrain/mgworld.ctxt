@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=mgworld()
+comment1.target=void\ act()
+comment2.target=void\ initHeightMap()
+comment3.params=vx\ vy\ vz
+comment3.target=void\ try3d(float,\ float,\ float)
+comment4.params=n
+comment4.target=float\ square(float)
+comment5.target=void\ drawWithDots()
+comment6.target=void\ drawWithLines()
+comment7.params=drawToBg
+comment7.target=void\ drawZBuffer_points(boolean)
+comment8.params=drawToBg
+comment8.target=void\ drawZBuffer(boolean)
+comment9.target=void\ drawWithPolygons()
+numComments=10

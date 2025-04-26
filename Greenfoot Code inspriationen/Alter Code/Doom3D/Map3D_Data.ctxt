@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.params=i
+comment0.target=double[][]\ getFloor(int)
+comment0.text=public\ static\ double[][]\ getFloor(int\ i){\nswitch(i){\ncase\ 1\:return\ map1F;\ndefault\:return\ map1F;\n}\n}\ \ \npublic\ static\ double[][]\ getRoof(int\ i){\nswitch(i){\ncase\ 1\:return\ map1R;\ndefault\:return\ map1R;\n}\n}\npublic\ static\ int[][]\ getColor(int\ i){\nswitch(i){\ncase\ 1\:return\ map1C;\ndefault\:return\ map1C;\n}\n}\n\n
+comment1.params=i
+comment1.target=double[][]\ getRoof(int)
+comment2.params=i
+comment2.target=Color[][][]\ getColor(int)
+numComments=3

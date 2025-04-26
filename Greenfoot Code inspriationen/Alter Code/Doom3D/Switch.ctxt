@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=r
+comment0.target=Switch(double)
+comment1.params=world
+comment1.target=void\ addedToWorld(World)
+comment2.target=void\ act()
+numComments=3

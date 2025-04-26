@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.params=a\ b\ c\ p\ v
+comment0.target=TieFighter(double,\ double,\ double,\ double[][],\ double)
+comment1.params=world
+comment1.target=void\ addedToWorld(World)
+comment2.target=void\ act()
+comment3.target=double[]\ getPosition()
+comment4.target=double\ r()
+comment5.target=double\ vel()
+comment6.target=void\ explode()
+comment7.target=void\ hurt()
+comment8.params=dx\ dy\ dz\ sharpness
+comment8.target=void\ seek(double,\ double,\ double,\ int)
+comment9.target=Color\ color()
+numComments=10

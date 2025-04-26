@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=xPos\ yPos
+comment0.target=Thrust(int,\ int)
+comment0.text=\nConstructor\ for\ objects\ of\ class\ MouseOn\n\n
+comment1.params=thrust
+comment1.target=void\ setValue(double)
+comment1.text=\nSet\ the\ value\ for\ this\ indicator\ to\ display.\n@param\ thrust\ value\ of\ thrust\ being\ used.\n\n
+numComments=2

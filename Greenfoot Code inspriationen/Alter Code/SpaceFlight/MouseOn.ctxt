@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=MouseOn()
+comment0.text=\nConstructor\ for\ objects\ of\ class\ MouseOn\n\n
+comment1.params=on
+comment1.target=void\ setValue(boolean)
+comment1.text=\nSet\ the\ value\ for\ this\ indicator\ to\ display.\n@param\ on\ true\ when\ mouse\ navigation\ is\ on.\n\n
+numComments=2

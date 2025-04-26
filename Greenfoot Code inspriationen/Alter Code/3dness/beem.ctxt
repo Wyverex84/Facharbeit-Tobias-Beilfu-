@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.params=a\ b\ c\ d\ e\ f\ g\ h
+comment0.target=beem(double,\ double,\ double,\ double,\ double,\ double,\ double,\ double)
+comment1.params=world
+comment1.target=void\ addedToWorld(World)
+comment2.target=void\ act()
+comment3.target=void\ isGoingToHit()
+comment4.target=void\ collision()
+numComments=5

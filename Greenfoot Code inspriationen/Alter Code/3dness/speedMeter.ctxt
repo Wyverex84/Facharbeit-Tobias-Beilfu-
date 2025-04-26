@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=speedMeter()
+comment1.target=void\ act()
+comment2.params=speed
+comment2.target=void\ setX(int)
+comment3.params=speed
+comment3.target=void\ setEn(int)
+numComments=4

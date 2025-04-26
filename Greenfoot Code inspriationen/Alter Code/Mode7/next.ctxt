@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=c
+comment0.target=next(carSelect)
+comment1.params=c
+comment1.target=next(mapSelect)
+comment2.target=void\ act()
+numComments=3

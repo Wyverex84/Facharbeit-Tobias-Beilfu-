@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=label\ yPos
+comment0.target=AxisAngle(String,\ int)
+comment0.text=\nConstructor\ for\ objects\ of\ class\ AxisAngle\n@param\ yPos\ the\ vertical\ placement\ of\ the\ indicator.\n@param\ label\ the\ prefix\ label\ for\ the\ angle.\n\n
+comment1.params=angle
+comment1.target=void\ setValue(double)
+comment1.text=\nSet\ the\ value\ for\ this\ indicator\ to\ display.\n@param\ angle\ rotational\ position.\n\n
+numComments=2

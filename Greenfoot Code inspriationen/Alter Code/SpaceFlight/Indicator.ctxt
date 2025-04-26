@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.params=x0\ y0\ w0\ h0
+comment0.target=Indicator(int,\ int,\ int,\ int)
+comment0.text=\nCall\ this\ constructor\ as\ 'super(x,y,w,h)'\ to\ initialize\ \na\ derived\ indicator.\n\n
+comment1.params=content
+comment1.target=void\ setValue(String)
+comment1.text=\nSet\ the\ value\ for\ this\ indicator\ to\ display.\n@param\ content\ the\ content\ to\ display.\n\n
+comment2.params=background
+comment2.target=void\ setBackground(Color)
+comment2.text=\nSet\ the\ background\ color.\n@param\ background\ color\ to\ display\ behind\ the\ text.\n\n
+comment3.params=pen
+comment3.target=void\ setPen(Color)
+comment3.text=\nSet\ the\ pen\ color.\n@param\ pen\ text\ color\ to\ display.\n\n
+comment4.target=GreenfootImage\ getImage()
+comment4.text=\nDraws\ the\ motion\ mode\ indicator\ on\ the\ cockpit\ panel.\n\n
+comment5.params=mx\ my
+comment5.target=boolean\ isTouching(int,\ int)
+comment5.text=\nDetermine\ if\ the\ screen\ position\ is\ on\ the\ indicator.\nUseful\ to\ see\ if\ a\ click\ landed\ on\ it.\n@param\ mx\ the\ x-screen\ coordinate.\n@param\ my\ the\ y-screen\ coordinate.\n@return\ true\ if\ (mx,my)\ is\ on\ the\ indictor.\n\n
+numComments=6

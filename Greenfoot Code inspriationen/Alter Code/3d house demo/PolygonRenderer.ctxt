@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=camera\ viewWindow
+comment0.target=PolygonRenderer(Transform3D,\ ViewWindow)
+comment0.text=\r\n\ \ \ \ \ \ \ \ Creates\ a\ new\ PolygonRenderer\ with\ the\ specified\r\n\ \ \ \ \ \ \ \ Transform3D\ (camera)\ and\ ViewWindow.\ The\ view\ is\ cleared\r\n\ \ \ \ \ \ \ \ when\ startFrame()\ is\ called.\r\n
+comment1.params=camera\ viewWindow\ clearViewEveryFrame
+comment1.target=PolygonRenderer(Transform3D,\ ViewWindow,\ boolean)
+comment1.text=\r\n\ \ \ \ \ \ \ \ Creates\ a\ new\ PolygonRenderer\ with\ the\ specified\r\n\ \ \ \ \ \ \ \ Transform3D\ (camera)\ and\ ViewWindow.\ If\r\n\ \ \ \ \ \ \ \ clearViewEveryFrame\ is\ true,\ the\ view\ is\ cleared\ when\r\n\ \ \ \ \ \ \ \ startFrame()\ is\ called.\r\n
+comment2.params=
+comment2.target=void\ init()
+comment2.text=\r\n\ \ \ \ \ \ \ \ Create\ the\ scan\ converter\ and\ dest\ polygon.\r\n
+comment3.params=
+comment3.target=Transform3D\ getCamera()
+comment3.text=\r\n\ \ \ \ \ \ \ \ Gets\ the\ camera\ used\ for\ this\ PolygonRenderer.\r\n
+comment4.params=g
+comment4.target=void\ startFrame(java.awt.Graphics2D)
+comment4.text=\r\n\ \ \ \ \ \ \ \ Indicates\ the\ start\ of\ rendering\ of\ a\ frame.\ This\ method\r\n\ \ \ \ \ \ \ \ should\ be\ called\ every\ frame\ before\ any\ polygons\ are\ drawn.\r\n
+comment5.params=g
+comment5.target=void\ endFrame(java.awt.Graphics2D)
+comment5.text=\r\n\ \ \ \ \ \ \ \ Indicates\ the\ end\ of\ rendering\ of\ a\ frame.\ This\ method\r\n\ \ \ \ \ \ \ \ should\ be\ called\ every\ frame\ after\ all\ polygons\ are\ drawn.\r\n
+comment6.params=g\ poly
+comment6.target=boolean\ draw(java.awt.Graphics2D,\ Polygon3D)
+comment6.text=\r\n\ \ \ \ \ \ \ \ Transforms\ and\ draws\ a\ polygon.\r\n
+comment7.params=g
+comment7.target=void\ drawCurrentPolygon(java.awt.Graphics2D)
+comment7.text=\r\n\ \ \ \ \ \ \ \ Draws\ the\ current\ polygon.\ At\ this\ point,\ the\ current\r\n\ \ \ \ \ \ \ \ polygon\ is\ transformed,\ clipped,\ projected,\r\n\ \ \ \ \ \ \ \ scan-converted,\ and\ visible.\r\n
+numComments=8

@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=void\ clear()
+comment1.params=c
+comment1.target=void\ setCamera(Camera)
+comment10.params=m\ a\ x
+comment10.target=double\ intersectY(double,\ double,\ double)
+comment11.params=a\ b\ c\ d
+comment11.target=void\ setLine1(int,\ int,\ int,\ int)
+comment12.params=a\ b\ c\ d
+comment12.target=void\ setLine2(int,\ int,\ int,\ int)
+comment2.target=void\ updateCamera()
+comment3.params=image\ Objects
+comment3.target=void\ drawObject(GreenfootImage,\ List)
+comment4.params=image\ toDraw
+comment4.target=void\ drawObject(GreenfootImage,\ Object3D)
+comment5.params=image\ Objects\ x\ y\ z\ temp1\ temp2\ temp3\ temp4
+comment5.target=void\ drawObject(GreenfootImage,\ List,\ double,\ double,\ double,\ double,\ double,\ double,\ double)
+comment6.params=image\ toRender\ x\ y\ z\ temp1\ temp2\ temp3\ temp4
+comment6.target=void\ drawObject(GreenfootImage,\ Object3D,\ double,\ double,\ double,\ double,\ double,\ double,\ double)
+comment7.params=points\ xv1\ yv1\ xv2\ yv2
+comment7.target=int[][]\ clip(int[][],\ int,\ int,\ int,\ int)
+comment7.text=public\ static\ void\ displayClippedObject(GreenfootImage\ image,ArrayList<Object3D>\ objects){\nfor(int\ i\ \=\ 0;i<objects.size();i++){\ndisplayClippedObject(image,objects.get(i).getRenderedImage());\n}\n}\n\n
+comment8.params=px\ py\ vx1\ vy1\ vx2\ vy2
+comment8.target=boolean\ right(double,\ double,\ double,\ double,\ double,\ double)
+comment9.params=m\ a\ n\ b
+comment9.target=double\ intersectX(double,\ double,\ double,\ double)
+numComments=13

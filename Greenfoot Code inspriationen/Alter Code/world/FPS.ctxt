@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=FPS()
+comment0.text=\nCreate\ a\ new\ FPS\ object\n\n
+comment1.params=w
+comment1.target=void\ addedToWorld(World)
+comment2.params=val
+comment2.target=void\ setFPS(String)
+comment2.text=\nSet\ the\ value\ of\ the\ frames\ per\ second\n\n
+comment3.target=void\ act()
+comment4.target=void\ updateImage()
+comment4.text=\nMake\ the\ image\n\n
+numComments=5

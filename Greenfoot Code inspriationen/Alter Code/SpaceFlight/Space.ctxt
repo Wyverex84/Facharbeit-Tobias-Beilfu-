@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Space()
+comment0.text=\nConstructor\ for\ objects\ of\ class\ Space.\n\n
+comment1.target=void\ act()
+comment1.text=\nInitialize\ the\ 3-D\ world\ with\ something\ simple\ to\ navigate\ through.\n\n
+comment2.params=pov\ rotCommand
+comment2.target=void\ rotateWorld(Vector3D,\ Vector3D)
+comment2.text=\nRotates\ each\ object's\ space\ coordinates.\n@param\ pov\ The\ rotational\ point-of-view.\n@param\ rotCommand\ The\ rotation\ angles\ in\ degrees\ to\ be\ applied.\n\n
+numComments=3

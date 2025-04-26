@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=width\ height
+comment0.target=GreenfootImage\ getInfo(int,\ int)
+comment0.text=\nDraws\ information\ for\ the\ popup\ info\ panel.\n@param\ width\ Info\ panel\ width\ in\ pixels.\n@param\ height\ Info\ panel\ height\ in\ pixels.\n@return\ the\ image\ to\ display\ on\ the\ Info\ panel\n\n
+comment1.target=void\ releaseInfo()
+comment1.text=\nRemoves\ the\ PopUoInfo\ and\ PopUpImage\ for\ an\ object.\n\n
+numComments=2

@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=
+comment0.target=SolidPolygon3D()
+comment1.params=v0\ v1\ v2
+comment1.target=SolidPolygon3D(Vector3D,\ Vector3D,\ Vector3D)
+comment2.params=v0\ v1\ v2\ v3
+comment2.target=SolidPolygon3D(Vector3D,\ Vector3D,\ Vector3D,\ Vector3D)
+comment3.params=vertices
+comment3.target=SolidPolygon3D(Vector3D[])
+comment4.params=polygon
+comment4.target=void\ setTo(Polygon3D)
+comment5.params=
+comment5.target=java.awt.Color\ getColor()
+comment5.text=\r\n\ \ \ \ \ \ \ \ Gets\ the\ color\ of\ this\ solid-colored\ polygon\ used\ for\r\n\ \ \ \ \ \ \ \ rendering\ this\ polygon.\r\n
+comment6.params=color
+comment6.target=void\ setColor(java.awt.Color)
+comment6.text=\r\n\ \ \ \ \ \ \ \ Sets\ the\ color\ of\ this\ solid-colored\ polygon\ used\ for\r\n\ \ \ \ \ \ \ \ rendering\ this\ polygon.\r\n
+numComments=7

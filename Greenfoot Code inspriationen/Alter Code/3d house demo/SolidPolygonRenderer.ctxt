@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.params=camera\ viewWindow
+comment0.target=SolidPolygonRenderer(Transform3D,\ ViewWindow)
+comment1.params=camera\ viewWindow\ clearViewEveryFrame
+comment1.target=SolidPolygonRenderer(Transform3D,\ ViewWindow,\ boolean)
+comment2.params=g
+comment2.target=void\ drawCurrentPolygon(java.awt.Graphics2D)
+comment2.text=\r\n\ \ \ \ \ \ \ \ Draws\ the\ current\ polygon.\ At\ this\ point,\ the\ current\r\n\ \ \ \ \ \ \ \ polygon\ is\ transformed,\ clipped,\ projected,\r\n\ \ \ \ \ \ \ \ scan-converted,\ and\ visible.\r\n
+numComments=3

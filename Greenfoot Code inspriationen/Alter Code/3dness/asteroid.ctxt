@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=a\ b\ c
+comment0.target=asteroid(double,\ double,\ double)
+comment1.params=world
+comment1.target=void\ addedToWorld(World)
+comment2.target=void\ act()
+comment3.target=double[]\ getPosition()
+comment4.target=double\ radius()
+comment5.target=void\ explode()
+comment6.params=d
+comment6.target=void\ setDelay(int)
+comment7.target=double\ off()
+numComments=8

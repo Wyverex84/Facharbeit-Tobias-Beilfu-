@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=raster()
+comment1.target=void\ act()
+comment2.target=void\ display()
+comment3.params=s
+comment3.target=void\ addToRaster(Object)
+comment4.params=s
+comment4.target=void\ removeFromRaster(Object)
+numComments=5

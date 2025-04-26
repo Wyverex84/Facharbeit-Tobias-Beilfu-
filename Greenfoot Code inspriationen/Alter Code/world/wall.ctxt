@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=wall()
+comment1.target=void\ act()
+comment2.params=x
+comment2.target=double\ arctan(double)
+numComments=3

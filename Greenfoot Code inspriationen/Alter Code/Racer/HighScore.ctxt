@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=scenario
+comment0.target=HighScore(String)
+comment1.target=boolean\ checkExists()
+comment2.params=name\ score
+comment2.target=void\ addScore(String,\ int)
+comment3.params=score
+comment3.target=void\ addScore(Score)
+comment4.target=List<Score>\ getScores()
+numComments=5

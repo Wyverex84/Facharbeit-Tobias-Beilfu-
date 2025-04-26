@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.params=image
+comment0.target=box(int)
+comment1.params=s
+comment1.target=box(boolean)
+comment10.params=time\ dir
+comment10.target=void\ step(double,\ int)
+comment11.params=a\ b\ c\ d
+comment11.target=void\ nudge(double,\ double,\ double,\ double)
+comment12.params=k
+comment12.target=void\ simulate(int)
+comment2.params=w
+comment2.target=void\ addedToWorld(World)
+comment3.target=void\ get()
+comment4.target=void\ act()
+comment5.params=s\ record
+comment5.target=boolean\ collision(box,\ boolean)
+comment6.params=a\ b
+comment6.target=boolean\ pointIn(double,\ double)
+comment7.params=s
+comment7.target=void\ rebound(box)
+comment8.params=a\ b
+comment8.target=Vector\ normal(double,\ double)
+comment9.target=void\ unstick()
+numComments=13

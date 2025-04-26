@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=flip\ c\ t
+comment0.target=arrow(boolean,\ carSelect,\ int)
+comment1.params=c\ t
+comment1.target=arrow(mapSelect,\ int)
+comment2.target=void\ act()
+numComments=3

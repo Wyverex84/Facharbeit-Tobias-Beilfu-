@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Camera()
+comment1.params=x\ y\ z
+comment1.target=Camera(double,\ double,\ double)
+comment10.target=double\ getX()
+comment11.target=double\ getY()
+comment12.target=double\ getZ()
+comment13.params=l
+comment13.target=void\ setLenseConstant(double)
+comment14.target=double\ getLense()
+comment2.params=x\ y\ z\ xa\ ya
+comment2.target=Camera(double,\ double,\ double,\ double,\ double)
+comment3.params=x\ y\ z\ xa\ ya\ l
+comment3.target=Camera(double,\ double,\ double,\ double,\ double,\ double)
+comment4.params=dx\ dy
+comment4.target=void\ rotate(double,\ double)
+comment5.params=xa\ ya
+comment5.target=void\ setRotation(double,\ double)
+comment6.target=double\ getRotationX()
+comment7.target=double\ getRotationY()
+comment8.params=dx\ dy\ dz
+comment8.target=void\ move(double,\ double,\ double)
+comment9.params=x\ y\ z
+comment9.target=void\ setLocation(double,\ double,\ double)
+numComments=15

@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=raster()
+comment1.target=void\ act()
+comment10.target=Object3D\ newCrosshair()
+comment11.target=Object3D\ newStationSmall()
+comment12.target=Object3D\ newTurret()
+comment13.target=List\ getAsteroids()
+comment14.target=List\ getFighters()
+comment15.target=void\ loadStars()
+comment16.target=void\ displayStars()
+comment17.target=void\ lowerQuality()
+comment18.params=a\ b\ c
+comment18.target=void\ explode(double,\ double,\ double)
+comment2.target=void\ display()
+comment3.params=s
+comment3.target=void\ addToRaster(Object3D)
+comment4.params=s
+comment4.target=void\ removeFromRaster(Object)
+comment5.target=Object3D\ newXwing()
+comment6.target=Object3D\ newAsteroid()
+comment7.target=Object3D\ newBullet()
+comment8.target=Object3D\ newRubble()
+comment9.target=Object3D\ newTieFighter()
+numComments=19

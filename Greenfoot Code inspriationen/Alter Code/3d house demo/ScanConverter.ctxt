@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=view
+comment0.target=ScanConverter(ViewWindow)
+comment0.text=\r\n\ \ \ \ \ \ \ \ Creates\ a\ new\ ScanConverter\ for\ the\ specified\ ViewWindow.\r\n\ \ \ \ \ \ \ \ The\ ViewWindow's\ properties\ can\ change\ in\ between\ scan\r\n\ \ \ \ \ \ \ \ conversions.\r\n
+comment1.params=
+comment1.target=int\ getTopBoundary()
+comment1.text=\r\n\ \ \ \ \ \ \ \ Gets\ the\ top\ boundary\ of\ the\ last\ scan-converted\ polygon.\r\n
+comment2.params=
+comment2.target=int\ getBottomBoundary()
+comment2.text=\r\n\ \ \ \ \ \ \ \ Gets\ the\ bottom\ boundary\ of\ the\ last\ scan-converted\r\n\ \ \ \ \ \ \ \ polygon.\r\n
+comment3.params=y
+comment3.target=ScanConverter.Scan\ getScan(int)
+comment3.text=\r\n\ \ \ \ \ \ \ \ Gets\ the\ scan\ line\ for\ the\ specified\ y\ value.\r\n
+comment4.params=
+comment4.target=void\ ensureCapacity()
+comment4.text=\r\n\ \ \ \ \ \ \ \ Ensures\ this\ ScanConverter\ has\ the\ capacity\ to\r\n\ \ \ \ \ \ \ \ scan-convert\ a\ polygon\ to\ the\ ViewWindow.\r\n
+comment5.params=
+comment5.target=void\ clearCurrentScan()
+comment5.text=\r\n\ \ \ \ \ \ \ \ Clears\ the\ current\ scan.\r\n
+comment6.params=polygon
+comment6.target=boolean\ convert(Polygon3D)
+comment6.text=\r\n\ \ \ \ \ \ \ \ Scan-converts\ a\ projected\ polygon.\ Returns\ true\ if\ the\r\n\ \ \ \ \ \ \ \ polygon\ is\ visible\ in\ the\ view\ window.\r\n
+numComments=7

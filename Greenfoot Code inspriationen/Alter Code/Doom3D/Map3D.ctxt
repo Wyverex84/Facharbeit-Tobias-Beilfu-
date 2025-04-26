@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.params=m\ i\ o\ w\ c
+comment0.target=Map3D(int,\ GreenfootImage,\ ArrayList<GameObject>,\ World,\ Camera)
+comment1.target=void\ display()
+comment2.params=x\ z
+comment2.target=void\ renderSection(int,\ int)
+comment3.params=x\ z
+comment3.target=void\ renderRoof(int,\ int)
+comment4.params=x\ z
+comment4.target=void\ renderFloor(int,\ int)
+comment5.params=x\ y\ z
+comment5.target=void\ renderZScore(double,\ double,\ double)
+comment6.params=x\ y\ z
+comment6.target=void\ renderPoint(double,\ double,\ double)
+comment7.params=sx\ sy\ sz\ zScore
+comment7.target=void\ renderSpecial(double[],\ double[],\ double[],\ double[])
+comment8.params=x\ z
+comment8.target=void\ renderObjects(int,\ int)
+comment9.params=mode
+comment9.target=void\ setRenderMode(int)
+numComments=10

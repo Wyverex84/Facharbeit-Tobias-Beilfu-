@@ -1,0 +1,33 @@
+#BlueJ class context
+comment0.target=Cockpit\ getOnly()
+comment0.text=\nGet\ the\ one\ and\ only\ cockpit.\n\n
+comment1.target=Cockpit()
+comment1.text=\nCreate\ the\ cockpit.\n\n
+comment10.params=axisInd\ angle\ update
+comment10.target=double\ setAxisDisplay(int,\ double,\ int)
+comment10.text=\nComputes\ new\ axis\ angle\ and\ displays\ it\ on\ an\ indicator.\n@param\ axisInd\ Index\ of\ the\ axis\ of\ rotation\ affected.\n@param\ angle\ The\ current\ angle\ to\ udpate\ in\ degrees.\n@param\ update\ The\ angle\ update\ value\ in\ degrees.\n@return\ the\ new\ angle\ in\ degrees\ normalized\ from\ 0\ to\ 360.\n\n
+comment11.params=axisInd\ pos\ update
+comment11.target=double\ setPosDisplay(int,\ double,\ double)
+comment11.text=\nComputes\ new\ axis\ displacement\ and\ displays\ it\ on\ an\ indicator.\n@param\ axisInd\ Index\ of\ the\ axis\ of\ displacement\ affected.\n@param\ pos\ The\ current\ position\ to\ udpate.\n@param\ update\ The\ position\ update\ value.\n@return\ the\ new\ displacement.\n\n
+comment12.params=angle
+comment12.target=double\ normalize360(double)
+comment12.text=\nNormalizes\ an\ angle\ between\ 0\ and\ 360.\n@param\ angle\ the\ raw\ angle\ in\ degrees.\n@return\ the\ normalized\ angle\ in\ degrees.\n\n
+comment2.params=world
+comment2.target=void\ addedToWorld(World)
+comment2.text=\nWhen\ added\ to\ the\ world,\ finds\ out\ where\ it\ was\ added.\n@param\ world\ the\ world\ it\ is\ in.\n\n
+comment3.target=void\ act()
+comment3.text=\n\n\n
+comment4.target=void\ processKeys()
+comment5.target=Vector3D\ getPov()
+comment5.text=\nGets\ the\ viewpoint.\n@return\ the\ viewpoint\ in\ pixels\n\n
+comment6.target=double\ getFov()
+comment6.text=\nGets\ half\ the\ field\ of\ view\ (fov)\ of\ the\ viewpoint.\n@return\ the\ fov\ in\ degrees.\n\n
+comment7.params=pos
+comment7.target=Vector3D\ setOnScreen(Vector3D)
+comment7.text=\nSets\ the\ screen\ coordinates\ and\ scale\ of\ an\ object.\nA\ 3-D\ vector\ is\ used\ for\ this\:\ \nx\ \=\ 2-D\ x,\ y\ \=\ 2-D\ y,\ z\ \=\ image\ scale\nA\ negative\ returned\ size\ is\ a\ code\:\n-1\:\ behind\ display\n-2\:\ Outside\ of\ field\ of\ view\ (fov)\n-3\:\ hit\ the\ windshield\n@param\ pos\ object's\ 3-D\ position.\n@return\ 2-D\ position\ and\ scale\ of\ the\ object\ on\ the\ screen,\ negative\ if\ not\ on\ screen.\n\n
+comment8.params=width\ height
+comment8.target=GreenfootImage\ getInfo(int,\ int)
+comment8.text=\nDraws\ default\ information\ for\ the\ popup\ info\ panel.\n@param\ width\ Info\ panel\ width\ in\ pixels.\n@param\ height\ Info\ panel\ height\ in\ pixels.\n@return\ the\ image\ to\ display\ on\ the\ Info\ panel\n\n
+comment9.target=void\ releaseInfo()
+comment9.text=\nRemoves\ just\ the\ PopUoInfo\ for\ this\ object.\n\n
+numComments=13

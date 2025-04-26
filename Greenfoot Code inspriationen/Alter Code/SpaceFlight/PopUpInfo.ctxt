@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=obj
+comment0.target=PopUpInfo(IPopUpInfo)
+comment0.text=\nPublic\ Constructor\ for\ PopUpInfo.\n@param\ obj\ the\ object\ whoes\ info\ is\ to\ be\ displayed.\n\n
+comment1.target=void\ act()
+comment1.text=\nDraws\ the\ owner's\ information\ to\ the\ information\ display\ area.\n\n
+comment2.target=void\ dispose()
+comment2.text=\nHandshakes\ with\ the\ source\ of\ this\ information\ and\ the\ Image\ popup\nto\ remove\ this\ and\ the\ image\ popup\ from\ the\ world.\n\n
+comment3.target=boolean\ isClear()
+comment3.text=\nTells\ whether\ information\ is\ being\ displayed.\n@return\ true\ when\ no\ information\ is\ displayed.\n\n
+numComments=4

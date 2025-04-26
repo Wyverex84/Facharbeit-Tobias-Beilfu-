@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=m
+comment0.target=Enemy(double[][])
+comment1.target=Enemy()
+comment2.params=w
+comment2.target=void\ addedToWorld(World)
+comment3.target=void\ act()
+comment4.params=r\ h
+comment4.target=boolean\ renderTime([,\ double)
+numComments=5
