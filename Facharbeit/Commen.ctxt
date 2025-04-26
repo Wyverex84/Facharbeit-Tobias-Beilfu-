@@ -1,7 +1,4 @@
 #BlueJ class context
 comment0.target=Commen
 comment0.text=\r\n\ <style>\r\n\ table,\ th,\ td\ {\r\n\ border\:\ 2px\ solid\ black;\r\n\ border-collapse\:\ collapse;\r\n\ text-align\:center;\r\n\ vertical-align\:\ text-top;\r\n\ }\r\n\ </style>\r\n\ In\ dieser\ klasse\ sind,\ Methoden\ die\ regelm\u00E4sig\ benutzt\ Werden.\r\n\ \r\n\ @author\ (Tobias\ Beilfu\u00DF)\ \r\n\ @version\ (0.1.0)\r\n\ <b\ style\="font-size\:120%;">Dokumentation\:</b>\ <br>\r\n\ <table\ style\="width\:100%;">\r\n\ <tr>\r\n\ <th>Datum</th>\r\n\ <th>\u00C4nderung</th>\r\n\ </tr>\r\n\ <tr>\r\n\ <th\ rowspan\="2"><b\ style\="font-size\:80%;">22.04.2025\:</b></th>\r\n\ <td>Klasse\ Commen\ erstellt</td>\r\n\ </tr>\r\n\ <tr>\r\n\ <td>Hintergrund\ Methode\ erstellt</td>\r\n\ </tr>\r\n\ </table>\r\n
-comment1.params=filename\ width\ height\ world
-comment1.target=void\ Hintergrund(java.lang.String,\ int,\ int,\ greenfoot.World)
-comment1.text=\r\n\ Setzt\ den\ Hintergrund\ der\ Welt\ auf\ ein\ Bild.\r\n\ @param\ img\ Das\ Bild,\ das\ als\ Hintergrund\ verwendet\ werden\ soll.\r\n\ @param\ world\ Die\ Welt,\ deren\ Hintergrund\ gesetzt\ werden\ soll.\r\n
-numComments=2
+numComments=1

@@ -40,9 +40,8 @@ public class Game extends World
 
     public Game()
     {    
-        // Create a new world with 500x600 cells with a cell size of 1x1 pixels.
-        super(400, 600, 1);
-        mond(); 
+        // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
+        super(600, 400, 1);
         Sonde();
         Hintergrund();
     }
@@ -51,17 +50,13 @@ public class Game extends World
     {
         // Füge die Sonde in die Mitte der Welt ein
         sonde = new Sonde();
-        addObject(sonde, getWidth() / 2, getHeight() / 2);
+        addObject(sonde, 300, 10);
     }
     
-    private void mond()
-    {
-        Mond mond = new Mond();
-        addObject(mond, 200, 600);
-    }
     private void Hintergrund()
     {
-        GreenfootImage background = new GreenfootImage("Game_Hintergrund.png");
-        setBackground(background);  
+        GreenfootImage hintergrund = new GreenfootImage("Game_Hintergrund.png");
+        hintergrund.scale(600, 400);
+        setBackground(hintergrund);  
     }
 }
