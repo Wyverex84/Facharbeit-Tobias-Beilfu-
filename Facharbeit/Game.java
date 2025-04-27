@@ -28,15 +28,13 @@ public class Game extends World
     // Deklaration der Variablen
     private Sonde sonde;
     private Mond mond;
-    private Slider_Bodenbeschafenheit slider1;
-    private Slider_Hindernisse slider2;
+
 
     public Game()
     {    
         // Erstellt eine neue Welt mit 1200x800 Zellen mit einer Zellgröße von 1x1 Pixel.
         super(1200, 800, 1); //dies ist die hauptwelt
-        // UI elemente werden hinzugefügt
-        UI();
+        
         // fügt die Sonde und den Mond hinzu
         Mond();
         Sonde();
@@ -54,13 +52,7 @@ public class Game extends World
         mond = new Mond();
         addObject(mond, 600, 800);
     }
-    void UI()
-    {
-        slider1 = new Slider_Bodenbeschafenheit("Bodenbeschafenheit", 1, 4);
-        slider2 = new Slider_Hindernisse("Hindernisse", 1, 5);
-        addObject(slider1, 20, 30);
-        addObject(slider2, 20, 130);
-    }
+
     private void Hintergrund()
     {
         GreenfootImage hintergrund = new GreenfootImage("Game_Hintergrund.png");

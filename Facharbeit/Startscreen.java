@@ -75,7 +75,7 @@ public class Startscreen extends World
         if (Greenfoot.mouseClicked(startbutton))
         {
             // wechselt zur Game-Welt
-            Greenfoot.setWorld(new Game());
+            Greenfoot.setWorld(new Pre_Game());
         }
         if (Greenfoot.mouseClicked(stopbutton))
         {

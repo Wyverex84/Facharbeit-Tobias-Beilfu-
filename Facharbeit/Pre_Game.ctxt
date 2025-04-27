@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Pre_Game
+comment0.text=\r\n\ Erg\u00E4nzen\ Sie\ hier\ eine\ Beschreibung\ f\u00FCr\ die\ Klasse\ Pre_Game.\r\n\ \r\n\ @author\ (Tobias\ Beilfu\u00DF)\ \r\n\ @version\ (1.5)\r\n
+comment1.params=
+comment1.target=Pre_Game()
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=void\ isbuttonclicked()
+comment4.params=
+comment4.target=void\ UI()
+comment5.params=
+comment5.target=void\ Hintergrund()
+numComments=6

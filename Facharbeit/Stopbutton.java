@@ -1,3 +1,4 @@
+import greenfoot.*;
 /**
  * Die Klasse Stopbutton repräsentiert einen Button, der in der Greenfoot-Umgebung
  * verwendet werden kann, um eine Stopp-Funktionalität darzustellen.
@@ -14,8 +15,7 @@
  * @author (Ihr Name)
  * @version (eine Versionsnummer oder ein Datum)
  */
-public class Stopbutton extends Actor
-{
+public class Stopbutton extends Actor {
     public void act()
     {
         grafik();

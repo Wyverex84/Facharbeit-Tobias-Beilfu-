@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=Stopbutton
-comment0.text=\r\n\ Erg\u00E4nzen\ Sie\ hier\ eine\ Beschreibung\ f\u00FCr\ die\ Klasse\ stopbutton.\r\n\ \r\n\ @author\ (Ihr\ Name)\ \r\n\ @version\ (eine\ Versionsnummer\ oder\ ein\ Datum)\r\n
+comment0.text=\r\n\ Die\ Klasse\ Stopbutton\ repr\u00E4sentiert\ einen\ Button,\ der\ in\ der\ Greenfoot-Umgebung\r\n\ verwendet\ werden\ kann,\ um\ eine\ Stopp-Funktionalit\u00E4t\ darzustellen.\r\n\ \r\n\ Diese\ Klasse\ l\u00E4dt\ eine\ Grafik\ f\u00FCr\ den\ Button\ und\ skaliert\ sie\ auf\ die\ gew\u00FCnschte\ Gr\u00F6\u00DFe.\r\n\ \r\n\ Methoden\:\r\n\ -\ act()\:\ Wird\ in\ jedem\ Frame\ aufgerufen\ und\ sorgt\ daf\u00FCr,\ dass\ die\ Grafik\ geladen\ wird.\r\n\ -\ grafik()\:\ Private\ Methode,\ die\ die\ Grafik\ des\ Buttons\ l\u00E4dt\ und\ skaliert.\r\n\ \r\n\ Voraussetzungen\:\r\n\ -\ Eine\ Bilddatei\ mit\ dem\ Namen\ "stopbutton.png"\ muss\ im\ Projektverzeichnis\ vorhanden\ sein.\r\n\ \r\n\ @author\ (Ihr\ Name)\r\n\ @version\ (eine\ Versionsnummer\ oder\ ein\ Datum)\r\n
 comment1.params=
 comment1.target=void\ act()
 comment2.params=
