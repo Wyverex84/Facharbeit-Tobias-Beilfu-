@@ -19,7 +19,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (Tobias Beilfuß) 
  * @version (0.1.1)
  */
-public class Startbutton extends Actor
+public class Startbutton extends Startscreen_Menu
 {
     public void act()
     {

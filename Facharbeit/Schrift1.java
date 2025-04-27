@@ -24,7 +24,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot und MouseInfo)
  * @author (Tobias Beilfuß) 
  * @version (1.5)
  */
-public class Schrift1 extends Actor
+public class Schrift1 extends Startscreen_Menu
 {
 
     public void act() 

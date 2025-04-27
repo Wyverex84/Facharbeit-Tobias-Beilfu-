@@ -6,7 +6,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot und MouseInfo)
  * @author (Ihr Name) 
  * @version (eine Versionsnummer oder ein Datum)
  */
-public class Weiterbutton extends Actor
+public class Weiterbutton extends Pre_Game_Menu
 {
     public void act()
     {

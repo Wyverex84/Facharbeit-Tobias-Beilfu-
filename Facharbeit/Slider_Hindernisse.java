@@ -38,7 +38,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot und MouseInfo)
  * 
  */
 
-public class Slider_Hindernisse extends Actor
+public class Slider_Hindernisse extends Pre_Game_Menu
 {
     private static final int MIN_X = -82;   // min and max offset in pixels on the slider image
     private static final int MAX_X = 81;

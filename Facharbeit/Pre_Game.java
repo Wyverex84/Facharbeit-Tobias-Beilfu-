@@ -32,7 +32,7 @@ public class Pre_Game extends World
         if (Greenfoot.mouseClicked(weiterbutton))
         {
             // wechselt zur Game-Welt
-            Greenfoot.setWorld(new Game());
+            Greenfoot.setWorld(new Start());
         }
         if (Greenfoot.mouseClicked(zurückbutton))
         {

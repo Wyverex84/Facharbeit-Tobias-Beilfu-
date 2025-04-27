@@ -43,7 +43,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot und MouseInfo)
  * @version (1.5)
  */
 
-public class Slider_Bodenbeschafenheit extends Actor
+public class Slider_Bodenbeschafenheit extends Pre_Game_Menu
 {
     private static final int MIN_X = -82;   // min and max offset in pixels on the slider image
     private static final int MAX_X = 81;

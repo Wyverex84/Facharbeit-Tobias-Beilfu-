@@ -15,7 +15,8 @@ import greenfoot.*;
  * @author (Ihr Name)
  * @version (eine Versionsnummer oder ein Datum)
  */
-public class Stopbutton extends Actor {
+public class Stopbutton extends Startscreen_Menu 
+{
     public void act()
     {
         grafik();

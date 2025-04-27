@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=Startbutton
-comment0.text=\r\n\ <style>\r\n\ table,\ th,\ td\ {\r\n\ border\:\ 2px\ solid\ black;\r\n\ border-collapse\:\ collapse;\r\n\ text-align\:center;\r\n\ vertical-align\:\ text-top;\r\n}\r\n</style>\r\n\ Write\ a\ description\ the\ of\ class\ here.\r\n\ \r\n\ @author\ (Tobias\ Beilfu\u00DF)\ \r\n\ @version\ (0.1.1)\r\n\ <b\ style\="font-size\:120%;">Dokumentation\:</b>\ <br>\r\n\ <table\ style\="width\:100%;">\r\n\ <tr>\r\n\ <th>Datum</th>\r\n\ <th>\u00C4nderung</th>\r\n\ </tr>\r\n\ <tr>\r\n\ <th><b\ style\="font-size\:80%;">20.04.2025\:</b></th>\r\n\ <td>Actor\ Startbutton\ erstellt</td>\r\n\ </tr>\r\n\ \r\n\ <tr>\r\n\ <th><b\ style\="font-size\:80%;">25.04.2025\:</b></th>\r\n\ <td>Grafik\ Methode\ hinzugef\u00FCgt</td>\r\n\ </tr>\r\n\ </table>\r\n
+comment0.text=\r\n\ \r\n\ @author\ (Tobias\ Beilfu\u00DF)\ \r\n\ @version\ (0.1.1)\r\n
 comment1.params=
 comment1.target=void\ act()
 comment2.params=
