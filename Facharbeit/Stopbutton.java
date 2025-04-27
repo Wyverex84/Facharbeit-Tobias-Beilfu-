@@ -14,6 +14,13 @@
  * @author (Ihr Name)
  * @version (eine Versionsnummer oder ein Datum)
  */
+public class Stopbutton extends Actor
+{
+    public void act()
+    {
+        grafik();
+    }    
+    private void grafik()
     {
         // Methode um die Grafik zu laden
         GreenfootImage image = new GreenfootImage("stopbutton.png");
