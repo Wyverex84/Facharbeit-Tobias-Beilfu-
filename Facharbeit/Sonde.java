@@ -1,42 +1,38 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 /**
- *<style>
- * table, th, td {
- * border: 2px solid black;
- * border-collapse: collapse;
- * text-align:center;
- * vertical-align: text-top;
- *}
- *</style>
- * Write a description the of class here.
+ * Die Klasse Sonde repräsentiert ein Objekt, das sich in einer Greenfoot-Welt bewegen kann.
+ * Sie simuliert eine Sonde mit Schwerkraft, Beschleunigung und Steuerung durch Benutzereingaben.
  * 
- * @author (Tobias Beilfuß) 
- * @version (0.1.2)
- * <b style="font-size:120%;">Dokumentation:</b> <br>
- * <table style="width:100%;">
- * <tr>
- * <th>Datum</th>
- * <th>Änderung</th>
- * </tr>
- * <tr>
- * <th><b style="font-size:80%;">18.04.2025:</b></th>
- * <td>Sonde erstellt</td>
- * </tr>
- * <tr>
- * <th rowspan="5"><b style="font-size:80%;">20.04.2025:</b></th>
- * <td>Welt größe geändert</td>
- * </tr>
- * <tr>
- * <td>methode zu steuerung der Sonde hinzugefügt</td>
- * </tr>
- * <tr>
- * <td>Methode für die Schwerkraft hinzugefügt</td>
- * </tr>
- * <tr>
- * <td>Methode für die Bewegung hinzugefügt</td>
- * </tr>
- * </table>
+ * <p>Funktionen der Klasse:</p>
+ * <ul>
+ *   <li>Bewegung der Sonde basierend auf Benutzereingaben (Pfeiltasten oder WASD).</li>
+ *   <li>Simulation von Schwerkraft, die die Sonde nach unten zieht.</li>
+ *   <li>Begrenzung der Bewegung der Sonde innerhalb der Weltgrenzen.</li>
+ *   <li>Automatische Anpassung des Bildes der Sonde.</li>
+ * </ul>
+ * 
+ * <p>Attribute:</p>
+ * <ul>
+ *   <li><b>velocityX:</b> Geschwindigkeit der Sonde in X-Richtung.</li>
+ *   <li><b>velocityY:</b> Geschwindigkeit der Sonde in Y-Richtung.</li>
+ *   <li><b>acceleration:</b> Beschleunigung, die durch Benutzereingaben ausgelöst wird.</li>
+ *   <li><b>gravity:</b> Konstante Schwerkraft, die auf die Sonde wirkt.</li>
+ * </ul>
+ * 
+ * <p>Methoden:</p>
+ * <ul>
+ *   <li><b>act:</b> Hauptmethode, die in jedem Frame aufgerufen wird. Sie steuert die Eingabe, 
+ *       Schwerkraft, Bewegung und Bildaktualisierung.</li>
+ *   <li><b>handleInput:</b> Verarbeitet Benutzereingaben und passt die Geschwindigkeit entsprechend an.</li>
+ *   <li><b>applyGravity:</b> Fügt die Schwerkraft zur vertikalen Geschwindigkeit hinzu.</li>
+ *   <li><b>moveSonde:</b> Bewegt die Sonde basierend auf ihrer Geschwindigkeit und begrenzt sie an den Weltgrenzen.</li>
+ *   <li><b>Img:</b> Lädt und skaliert das Bild der Sonde.</li>
+ * </ul>
+ * 
+ * @author (Tobias Beilfuß)
+ * @version (1.2)
  */
+
 public class Sonde extends Actor {
     private double velocityX = 0; // Geschwindigkeit in X-Richtung
     private double velocityY = 0; // Geschwindigkeit in Y-Richtung

@@ -1,8 +1,0 @@
-#BlueJ class context
-comment0.target=Titelschrift
-comment0.text=\r\n\ Erg\u00E4nzen\ Sie\ hier\ eine\ Beschreibung\ f\u00FCr\ die\ Klasse\ Titelschrift.\r\n\ \r\n\ @author\ (Ihr\ Name)\ \r\n\ @version\ (eine\ Versionsnummer\ oder\ ein\ Datum)\r\n
-comment1.params=
-comment1.target=void\ act()
-comment2.params=
-comment2.target=void\ TextActor()
-numComments=3

@@ -1,33 +1,23 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 /**
- * <style>
- * table, th, td {
- * border: 2px solid black;
- * border-collapse: collapse;
- * text-align:center;
- * vertical-align: text-top;
- *}
- *</style>
- * Write a description the of class here.
+ * Die Klasse Startbutton repräsentiert einen Knopf, der in der Greenfoot-Umgebung verwendet wird.
+ * Sie lädt eine Grafik für den Startbutton und skaliert diese auf die gewünschte Größe.
+ * 
+ * <p>Version: 0.1.1</p>
+ * 
+ * <p>Autor: Tobias Beilfuß</p>
+ * 
+ * Methoden:
+ * <ul>
+ *   <li><b>act()</b>: Wird in jedem Frame aufgerufen und sorgt dafür, dass die Grafik geladen wird.</li>
+ *   <li><b>grafik()</b>: Private Methode, die die Grafik des Startbuttons lädt und skaliert.</li>
+ * </ul>
+ */
+
+/**
  * 
  * @author (Tobias Beilfuß) 
  * @version (0.1.1)
- * <b style="font-size:120%;">Dokumentation:</b> <br>
- * <table style="width:100%;">
- * <tr>
- * <th>Datum</th>
- * <th>Änderung</th>
- * </tr>
- * <tr>
- * <th><b style="font-size:80%;">20.04.2025:</b></th>
- * <td>Actor Startbutton erstellt</td>
- * </tr>
- * 
- * <tr>
- * <th><b style="font-size:80%;">25.04.2025:</b></th>
- * <td>Grafik Methode hinzugefügt</td>
- * </tr>
- * </table>
  */
 public class Startbutton extends Actor
 {

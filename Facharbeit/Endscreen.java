@@ -1,37 +1,20 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 /**
- * <style>
- * table, th, td { 
- * border: 2px solid black;
- * border-collapse: collapse;
- * text-align:center;
- * vertical-align: text-top;
- * }
- * </style>
- * Write a description the of class here.
+ * Die Klasse Endscreen repräsentiert den Endbildschirm des Spiels.
+ * Sie erbt von der Klasse World und stellt eine neue Welt mit einer
+ * festen Größe von 600x400 Pixeln dar.
  * 
- * @author (Tobias Beilfuß) 
- * @version (0.1.0)
- * <b style="font-size:120%;">Dokumentation:</b> <br>
- * <table style="width:100%;">
- * <tr>
- * <th>Datum</th>
- * <th>Änderung</th>
- * </tr>
- * <tr>
- * <th><b style="font-size:80%;">18.04.2025:</b></th>
- * <td>welt unterklasse Endscreen erstellt</td>
- * </tr>
- * <tr>
- * <th rowspan="2"><b style="font-size:80%;">20.04.2025:</b></th>
- * <td> Welt größe geändert</td>
- * </tr>
- * <tr>
- * <th><b style="font-size:80%;">22.04.2025:</b></th>
- * <td>Methode zum erstellen eines hintergrundes hinzugefügt</td>
- * </tr>
- * </table>
+ * Methoden:
+ * - Endscreen(): Konstruktor, der die Welt initialisiert.
+ * - Hintergrund(String filename, int width, int height, World world): 
+ *   Eine Methode, die vermutlich dazu gedacht ist, den Hintergrund 
+ *   der Welt zu setzen. Die Implementierung fehlt noch.
+ * 
+ * ⬆️ Text Wurde von VSCode Copilot generiert. ⬆️
+ * @author (Tobias Beilfuß)
+ * @version (1.5)
  */
+
 public class Endscreen extends World
 {
 
@@ -41,11 +24,7 @@ public class Endscreen extends World
      */
     public Endscreen()
     {    
-        // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(600, 400, 1); 
-    }
-    void Hintergrund(String filename, int width, int height, World world)
-    {
-        
+        // Erstellt eine neue Welt mit 1200x800 Zellen mit einer Zellgröße von 1x1 Pixel.
+        super(1200, 800, 1); 
     }
 }

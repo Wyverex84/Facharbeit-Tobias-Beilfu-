@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Schrift1
+comment0.text=\r\n\ Die\ Klasse\ Schrift1\ ist\ eine\ Unterklasse\ von\ Actor\ und\ dient\ dazu,\r\n\ einen\ Text\ auf\ dem\ Bildschirm\ anzuzeigen.\ Der\ Text\ wird\ mit\ einer\ \r\n\ benutzerdefinierten\ Schriftart\ und\ Farbe\ dargestellt.\r\n\ \r\n\ Methoden\:\r\n\ -\ act()\:\ Wird\ in\ jedem\ Aktionszyklus\ aufgerufen\ und\ ruft\ die\ Methode\ \r\n\ \ \ TextActor()\ auf,\ um\ den\ Text\ zu\ erstellen.\r\n\ -\ TextActor()\:\ Erstellt\ ein\ GreenfootImage\ mit\ einem\ Text,\ der\ mit\ \r\n\ \ \ einer\ bestimmten\ Schriftart,\ Gr\u00F6\u00DFe\ und\ Farbe\ gezeichnet\ wird,\ und\ \r\n\ \ \ setzt\ dieses\ Bild\ als\ das\ Bild\ des\ Objekts.\r\n\ \r\n\ Verwendete\ Klassen\ und\ Methoden\:\r\n\ -\ GreenfootImage\:\ Zum\ Erstellen\ und\ Bearbeiten\ von\ Bildern.\r\n\ -\ Font\:\ Zum\ Festlegen\ der\ Schriftart,\ Schriftgr\u00F6\u00DFe\ und\ Schriftstil.\r\n\ -\ Color\:\ Zum\ Festlegen\ der\ Textfarbe.\r\n\ -\ setImage()\:\ Zum\ Setzen\ des\ Bildes\ f\u00FCr\ das\ Actor-Objekt.\r\n\ \r\n\ Hinweis\:\ Die\ Schriftart\ "Comic\ Sans\ MS"\ wird\ verwendet,\ und\ der\ Text\ \r\n\ "Odysseus\ Landung"\ wird\ in\ wei\u00DFer\ Farbe\ dargestellt.\r\n\r\n\ \u2B06\uFE0F\ Text\ Wurde\ von\ VSCode\ Copilot\ generiert.\ \u2B06\uFE0F\r\n\ @author\ (Tobias\ Beilfu\u00DF)\ \r\n\ @version\ (1.5)\r\n
+comment1.params=
+comment1.target=void\ act()
+comment2.params=
+comment2.target=void\ TextActor()
+numComments=3

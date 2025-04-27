@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=Game
-comment0.text=\r\n\ <style>\r\n\ table,\ th,\ td\ {\r\n\ border\:\ 2px\ solid\ black;\r\n\ border-collapse\:\ collapse;\r\n\ text-align\:center;\r\n\ vertical-align\:\ text-top;\r\n\ }\r\n\ </style>\r\n\ Write\ a\ description\ the\ of\ class\ here.\r\n\ \r\n\ @author\ (Tobias\ Beilfu\u00DF)\ \r\n\ @version\ (0.1.1)\r\n\ <b\ style\="font-size\:120%;">Dokumentation\:</b>\ <br>\r\n\ <table\ style\="width\:100%;">\r\n\ <tr>\r\n\ <th>Datum</th>\r\n\ <th>\u00C4nderung</th>\r\n\ </tr>\r\n\ <tr>\r\n\ <th><b\ style\="font-size\:80%;">18.04.2025\:</b></th>\r\n\ <td>Welt\ unterklasse\ Game\ erstellt</td>\r\n\ </tr>\r\n\ <tr>\r\n\ <th\ rowspan\="2"><b\ style\="font-size\:80%;">20.04.2025\:</b></th>\r\n\ <td>Welt\ gr\u00F6\u00DFe\ ge\u00E4ndert</td>\r\n\ </tr>\r\n\ <tr>\r\n\ <td>methode\ zum\ erstellen\ der\ Sonde\ hinzugef\u00FCgt</td>\r\n\ </tr>\r\n\ </table>\r\n
+comment0.text=\r\n\ Die\ Klasse\ Game\ repr\u00E4sentiert\ die\ Hauptwelt\ des\ Spiels.\r\n\ Sie\ initialisiert\ die\ Welt,\ f\u00FCgt\ Objekte\ wie\ die\ Sonde,\ den\ Mond\ und\ die\ Benutzeroberfl\u00E4che\ hinzu\r\n\ und\ setzt\ den\ Hintergrund\ der\ Welt.\r\n\ \r\n\ Funktionen\ der\ Klasse\:\r\n\ -\ Initialisierung\ der\ Welt\ mit\ einer\ Gr\u00F6\u00DFe\ von\ 1200x800\ Pixeln.\r\n\ -\ Hinzuf\u00FCgen\ der\ Sonde\ in\ die\ Mitte\ der\ Welt.\r\n\ -\ Hinzuf\u00FCgen\ des\ Mondes\ an\ eine\ feste\ Position.\r\n\ -\ Erstellen\ und\ Hinzuf\u00FCgen\ von\ UI-Elementen\ wie\ Schieberegler.\r\n\ -\ Setzen\ eines\ Hintergrundbildes\ f\u00FCr\ die\ Welt.\r\n\ \r\n\ Variablen\:\r\n\ -\ `sonde`\:\ Repr\u00E4sentiert\ die\ Sonde,\ die\ in\ der\ Welt\ platziert\ wird.\r\n\ -\ `mond`\:\ Repr\u00E4sentiert\ den\ Mond,\ der\ in\ der\ Welt\ platziert\ wird.\r\n\ -\ `slider1`\:\ Ein\ Schieberegler\ f\u00FCr\ die\ Einstellung\ der\ Bodenbeschaffenheit.\r\n\ -\ `slider2`\:\ Ein\ Schieberegler\ f\u00FCr\ die\ Einstellung\ der\ Hindernisse.\r\n\ \r\n\ \u2B06\uFE0F\ Text\ Wurde\ von\ VSCode\ Copilot\ generiert.\ \u2B06\uFE0F\ \r\n\ die\ anderen\ Kommentare\ wurden\ von\ Tobias\ Beilfu\u00DF\ selber\ hinzugef\u00FCgt\r\n\ @author\ (Tobias\ Beilfu\u00DF)\ \r\n\ @version\ (1.5)\r\n
 comment1.params=
 comment1.target=Game()
 comment2.params=
@@ -8,5 +8,7 @@ comment2.target=void\ Sonde()
 comment3.params=
 comment3.target=void\ Mond()
 comment4.params=
-comment4.target=void\ Hintergrund()
-numComments=5
+comment4.target=void\ UI()
+comment5.params=
+comment5.target=void\ Hintergrund()
+numComments=6
