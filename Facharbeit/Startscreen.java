@@ -59,6 +59,7 @@ public class Startscreen extends World
     // Deklaration der Variablen
     private Startbutton startbutton;
     private Stopbutton stopbutton;
+    private Titelschrift titel;
     /**
      * Constructor for objects of class Startscreen.
      * 
@@ -66,7 +67,7 @@ public class Startscreen extends World
     public Startscreen()
     {   
         // Erstellt eine neue welt mit400x600 Zellen mit einer Zellgröße von 1x1 Pixel.
-        super(600, 400, 1);
+        super(1200, 800, 1);
         // startet das Spiel automatisch
         Greenfoot.start(); 
         // fügt den Startbutton und den Stopbutton hinzu
@@ -85,8 +86,8 @@ public class Startscreen extends World
     {
         startbutton = new Startbutton();
         stopbutton = new Stopbutton();
-        addObject(startbutton, 300, 280);
-        addObject(stopbutton, 300, 320);
+        addObject(startbutton, 600, 540);
+        addObject(stopbutton, 600, 600);
     }
     void isbuttonclicked()
     {
@@ -103,13 +104,15 @@ public class Startscreen extends World
     void Title()
     {
         //fügt den Text hinzu
-        showText("Odysseus Landung", 300, 100);
+        //showText("Odysseus Landung", 600, 200);
+        titel = new Titelschrift();
+        addObject(titel, 600, 200);
     }
     private void Hintergrund()
     {
         //fügt den Hintergrund hinzu
         GreenfootImage hintergrund = new GreenfootImage("Startscreen_Hintergrund.png");
-        hintergrund.scale(600, 400);
+        hintergrund.scale(1200, 800);
         setBackground(hintergrund);
     }
 }

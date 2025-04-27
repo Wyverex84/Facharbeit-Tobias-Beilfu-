@@ -47,6 +47,7 @@ public class Sonde extends Actor {
         handleInput();
         applyGravity();
         moveSonde();
+        Img();
     }
 
     private void handleInput() 
@@ -87,5 +88,11 @@ public class Sonde extends Actor {
         {
             velocityY = 0; // Stoppe Bewegung in Y-Richtung
         }
+    }
+    private void Img()
+    {
+        GreenfootImage img = new GreenfootImage("sonde.png");
+        img.scale(40, 60); // Größe der Sonde anpassen
+        setImage(img);
     }
 }

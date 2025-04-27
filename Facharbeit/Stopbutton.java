@@ -8,18 +8,15 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot und MouseInfo)
  */
 public class Stopbutton extends Actor
 {
-    /**
-     * Act - tut, was auch immer stopbutton tun will. Diese Methode wird aufgerufen, 
-     * sobald der 'Act' oder 'Run' Button in der Umgebung angeklickt werden. 
-     */
     public void act()
     {
         grafik();
     }
-    void grafik()
+    private void grafik()
     {
         // Methode um die Grafik zu laden
         GreenfootImage image = new GreenfootImage("stopbutton.png");
+        image.scale(200, 50);
         setImage(image);
     }
 } 

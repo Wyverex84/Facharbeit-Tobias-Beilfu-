@@ -1,4 +1,8 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+// Import für die UI
+import rccookie.greenfoot.ui.basic.*;
+import rccookie.greenfoot.ui.advanced.*;
+import rccookie.greenfoot.ui.util.*;
 /**
  * <style>
  * table, th, td {
@@ -35,28 +39,33 @@ public class Game extends World
 {
 
     // Deklaration der Variablen
+    private static final long serialVersionUID = 1L;
     private Sonde sonde;
     private Mond mond;
 
     public Game()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(600, 400, 1);
+        super(1200, 800, 1);
+        Mond();
         Sonde();
         Hintergrund();
     }
-    
-    private void Sonde() 
+    void Sonde() 
     {
         // Füge die Sonde in die Mitte der Welt ein
         sonde = new Sonde();
         addObject(sonde, 300, 10);
     }
-    
+    void Mond() 
+    {
+        mond = new Mond();
+        addObject(mond, 600, 800);
+    }
     private void Hintergrund()
     {
         GreenfootImage hintergrund = new GreenfootImage("Game_Hintergrund.png");
-        hintergrund.scale(600, 400);
+        hintergrund.scale(1200, 800);
         setBackground(hintergrund);  
     }
 }

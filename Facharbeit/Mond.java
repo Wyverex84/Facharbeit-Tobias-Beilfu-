@@ -17,9 +17,10 @@ public class Mond extends Actor
 
     protected void addedToWorld(World Game)
     {
-        GreenfootImage mondImage = new GreenfootImage(400, 195);
+        GreenfootImage mondImage = new GreenfootImage(1200, 500);
         mondImage.setColor(mondgrau);
-        mondImage.fillRect(0, 0, 402, 100); // Rechteck ohne Rundungen
+        mondImage.fillRect(0, 60, 1200, 500);
+        mondImage.fillOval(-10, 0, 1220, 120);
         setImage(mondImage);
     }
 }

@@ -35,10 +35,11 @@ public class Startbutton extends Actor
     {
         grafik();
     }
-    void grafik()
+    private void grafik()
     {
         // Methode um die Grafik zu laden
         GreenfootImage image = new GreenfootImage("Startbutton.png");
-        setImage(image);
+        image.scale(200, 50);
+        setImage(image); 
     }
 }
